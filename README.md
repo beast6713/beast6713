@@ -1,235 +1,146 @@
+# Hitesh Yadav
+### Secure Software Engineer & Cybersecurity Researcher
+
+<p align="center">
+  <img src="cyber_banner.svg" width="100%" alt="Hitesh Yadav Banner" />
+</p>
+
 <div align="center">
 
-# `[+]` SYSTEM INIT: HITESH YADAV
-### `< CYBERSECURITY STUDENT & FULL STACK DEVELOPER />`
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=16&pause=1000&color=00F0FF&center=true&vCenter=true&width=750&lines=Zero-Trust+Engineering+%7C+Securing+Software+at+the+Design+Layer;Building+Concurrent+Network+Scanners+%26+Forensic+Parsers;Developing+Clean+Architecture+Applications+in+Go+%26+Next.js)](https://git.io/typing-svg)
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=00F0FF&center=true&vCenter=true&width=650&lines=System.out.println(%22Hello+World!%22);Exploring+Digital+Forensics+%26+Cloud+Security;Building+Secure+Full-Stack+%26+AI-Powered+Apps;Architecting+Resilient+Web+Infrastructures;Zero-Trust+Mindset+%7C+Continuous+Learner)](https://git.io/typing-svg)
-
-<br />
-
-[![Portfolio](https://img.shields.io/badge/PORTFOLIO-0D1117?style=for-the-badge&logo=google-chrome&logoColor=00F0FF&borderColor=00F0FF)](https://github.com/beast6713)
-[![LinkedIn](https://img.shields.io/badge/LINKEDIN-0D1117?style=for-the-badge&logo=linkedin&logoColor=00F0FF&borderColor=00F0FF)](https://www.linkedin.com/in/hiteshyadav6713/)
-[![Email](https://img.shields.io/badge/EMAIL-0D1117?style=for-the-badge&logo=gmail&logoColor=00F0FF&borderColor=00F0FF)](mailto:hiteshincode@gmail.com)
-[![GitHub](https://img.shields.io/badge/GITHUB-0D1117?style=for-the-badge&logo=github&logoColor=00F0FF&borderColor=00F0FF)](https://github.com/beast6713)
-
-<br />
-
-```
-┌──────────────────────────────────────────────────────────────────────────────────────────────────┐
-│  STATUS: ONLINE   │   CLEARANCE: STUDENT / RESEARCHER   │   LOCATION: LOCALHOST [127.0.0.1]      │
-└──────────────────────────────────────────────────────────────────────────────────────────────────┘
-```
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-00F0FF?style=flat-square&logo=linkedin&logoColor=0B0F19&labelColor=0B0F19)](https://www.linkedin.com/in/hiteshyadav6713/)
+[![Email](https://img.shields.io/badge/Email-00F0FF?style=flat-square&logo=gmail&logoColor=0B0F19&labelColor=0B0F19)](mailto:kunjeyanhitesh13@gmail.com)
+[![GitHub](https://img.shields.io/badge/Portfolio-00F0FF?style=flat-square&logo=github&logoColor=0B0F19&labelColor=0B0F19)](https://github.com/beast6713)
 
 </div>
 
 ---
 
-## `0x01` ABOUT ME
+## 0x01 | Profile Summary
 
-I am a **Cybersecurity Student** and **Full Stack Developer** dedicated to bridging the gap between cutting-edge software engineering and robust defensive security. My work revolves around writing clean, high-performance code while ensuring security is baked into the software development lifecycle from day one.
+I am a Computer Science Engineering student specializing in **Cybersecurity** at SRM Institute of Science & Technology, Chennai (Expected Graduation: May 2028 | GPA: 9.52/10). 
 
-Rather than viewing security as an afterthought, I approach engineering with a **Zero-Trust** mindset—analyzing attack surfaces, researching digital forensics, and developing AI-assisted applications designed to withstand modern threat landscapes.
-
-```yaml
-Hitesh_Yadav:
-  Role: "Cybersecurity Student & Full Stack Developer"
-  Core_Philosophy: "Secure by Design, Resilient by Architecture"
-  Current_Focus:
-    - "Digital Forensics & Incident Response Fundamentals"
-    - "Cloud Security & Infrastructure Hardening (AWS / Docker)"
-    - "Secure Software Development Lifecycle (SSDLC)"
-    - "Full-Stack Web Development with Next.js & React"
-    - "Integrating AI Models into Security & Utility Workflows"
-  Status: "Actively learning, building, and contributing to open-source"
-```
+My engineering core focus is on the boundary where high-performance software engineering meets defensive security. I believe security must be architected into software at the design phase rather than added as a deployment patch. By studying low-level systems (such as NTFS disk structures, TCP socket routines, and authorization boundaries), I build robust applications that are secure by design.
 
 ---
 
-## `0x02` CORE FOCUS & AREAS OF RESEARCH
+## 0x02 | Core Engineering Gateway
 
-<div align="center">
+To understand my approach to code quality, software architecture, and incident response, explore these master documents:
 
-| `Domain` | `Primary Objective` | `Key Technologies & Principles` |
-| :--- | :--- | :--- |
-| **`Cybersecurity`** | Defensive Architecture & Vulnerability Assessment | Network Traffic Analysis, Threat Modeling, Linux Hardening |
-| **`Digital Forensics`** | Packet Inspection & Evidence Recovery Fundamentals | Wireshark, Log Parsing, Memory & File System Analysis |
-| **`Cloud Security`** | Containerization & Cloud-Native Hardening | Docker Least Privilege, AWS IAM Policies, Virtual Networking |
-| **`Secure Dev`** | OWASP Top 10 Mitigation & Secure Code Review | Input Sanitization, Auth Guarding, CSRF/XSS Prevention |
-| **`AI Applications`** | Intelligent Automation & Data Processing Pipelines | Python LLM Wrappers, Automated Recon & Log Summary |
-
-</div>
+*   **[DevOps & Actions Guide](DEVOPS_INTEGRATION_GUIDE.md)**: Specifications for my automated testing, static analysis (Black, Ruff, MyPy, Bandit), dependency supply chain vulnerability scanning (`pip-audit`), and Docker build pipelines.
+*   **[Documentation & Blueprint Master](DOCUMENTATION_BLUEPRINT.md)**: Architectural blueprints, execution flowcharts, API schemas, and network topologies for my projects.
 
 ---
 
-## `0x03` TECHNICAL ARSENAL
+## 0x03 | Featured Projects
 
-### `[+] CORE PROGRAMMING & LANGUAGES`
+### 1. IP-Sentinel (IPIP)
+*   **Domain**: Threat Intelligence & Distributed Systems
+*   **Repository**: [github.com/beast6713/IP-Sentinel](https://github.com/beast6713/IP-Sentinel)
+*   **Core Capability**: A Clean Architecture platform that queries, normalizes, and correlates real-time IP threat intelligence from multiple external providers concurrently.
+*   **Why It Matters**: Demonstrates strict boundary separation (SOLID entity-usecase patterns) in Go and utilizes concurrent workers to parse data streams into sub-millisecond Redis cache retrievals.
 
-<br />
+### 2. PortFootprint
+*   **Domain**: Network Diagnostics & Socket Engineering
+*   **Repository**: [github.com/beast6713/PortFootprint](https://github.com/beast6713/PortFootprint)
+*   **Core Capability**: A multi-threaded, cross-platform TCP port scanner and service banner grabber CLI tool that exports raw data into formatted CSV, JSON, and dark-theme HTML reports.
+*   **Why It Matters**: Engineered using Python's `concurrent.futures` to reduce network scan latency by over 60% compared to sequential socket connections, with robust banner signature matching.
 
-<div align="center">
-  <img src="https://skillicons.dev/icons?i=py,js,ts,c,cpp&theme=dark" alt="Languages" />
-</div>
+### 3. VulnReconX
+*   **Domain**: Extensible Security Frameworks
+*   **Repository**: [github.com/beast6713/VulnReconX](https://github.com/beast6713/VulnReconX)
+*   **Core Capability**: A modular CLI reconnaissance and vulnerability scanning utility driven by a dynamic, YAML-defined plugin registry.
+*   **Why It Matters**: Standardizes scanning tasks through abstract interfaces, ensuring plugins are safely discovered and executed during preflight target validation.
 
-<br />
-
-### `[+] FULL-STACK ENGINEERING`
-
-<br />
-
-<div align="center">
-  <img src="https://skillicons.dev/icons?i=react,nextjs,tailwind,html,css,nodejs,express,postgres,supabase,mongodb&theme=dark" alt="Full Stack Stack" />
-</div>
-
-<br />
-
-### `[+] CLOUD, DEVOPS & SYSTEMS`
-
-<br />
-
-<div align="center">
-  <img src="https://skillicons.dev/icons?i=aws,docker,linux,git,github,vscode,postman&theme=dark" alt="Cloud and Tools" />
-</div>
-
-<br />
-
-### `[+] CYBERSECURITY & DIGITAL FORENSICS PLATFORM`
-
-<br />
-
-<div align="center">
-
-![Linux](https://img.shields.io/badge/Linux-0D1117?style=for-the-badge&logo=linux&logoColor=00F0FF&borderColor=30363D)
-![Nmap](https://img.shields.io/badge/Nmap-0D1117?style=for-the-badge&logo=kali-linux&logoColor=00F0FF&borderColor=30363D)
-![Wireshark](https://img.shields.io/badge/Wireshark-0D1117?style=for-the-badge&logo=wireshark&logoColor=00F0FF&borderColor=30363D)
-![Burp Suite](https://img.shields.io/badge/Burp_Suite-0D1117?style=for-the-badge&logo=portswigger&logoColor=00F0FF&borderColor=30363D)
-![OWASP](https://img.shields.io/badge/OWASP_Top_10-0D1117?style=for-the-badge&logo=owasp&logoColor=00F0FF&borderColor=30363D)
-![VirtualBox](https://img.shields.io/badge/VirtualBox-0D1117?style=for-the-badge&logo=virtualbox&logoColor=00F0FF&borderColor=30363D)
-![Forensics](https://img.shields.io/badge/Digital_Forensics-0D1117?style=for-the-badge&logo=gnubash&logoColor=00F0FF&borderColor=30363D)
-
-</div>
+### 4. NTFS Forensic Recovery Tool
+*   **Domain**: Digital Forensics & Binary Parsing
+*   **Repository**: [github.com/beast6713/ntfs-forensic-recovery](https://github.com/beast6713/ntfs-forensic-recovery)
+*   **Core Capability**: A standalone forensics utility that reads raw disk partition images to parse NTFS internal records and carve deleted artifacts.
+*   **Why It Matters**: Bypasses the operating system's standard APIs to read disk sectors directly, parsing the Master File Table ($MFT) and decoding cluster runlists to reconstruct fragmented files.
 
 ---
 
-## `0x04` FEATURED ENGINEERING PROJECTS
+## 0x04 | Cybersecurity Research
 
-<div align="center">
+My projects and academic study focus on the following domains:
 
-| Project & Repository | Domain | Description & Key Features | Stack & Tools |
-| :--- | :--- | :--- | :--- |
-| **`[VulnReconX Framework]`**<br />`[Private / Research]` | **Cybersecurity** | Modular reconnaissance and vulnerability scanning framework designed with Clean Architecture, explicit protocol contracts, and automated preflight checks. | `Python` `Socket` `Nmap` `Clean Arch` |
-| **`[PortFootprint]`**<br />`[Open Source Repository]` | **Network Scanning** | Modular cross-platform TCP Port Scanner and Service Fingerprinting CLI tool featuring multi-threaded execution and interactive HTML reports. | `Python` `Socket Engine` `HTML Reports` |
-| **`[Secure Auth Portal]`**<br />`[Featured Repo]` | **Secure Web Dev** | Production-ready full-stack web application demonstrating strict OWASP Top 10 defenses, hardened JWT auth flow, CSRF tokens, and RBAC middleware. | `Next.js` `TypeScript` `Supabase` `Tailwind` |
-| **`[Network Traffic Monitor]`**<br />`[Lab Utility]` | **Networking** | Lightweight CLI utility for monitoring active TCP/UDP connections, capturing packet anomalies, and exporting structured CSV/JSON audit reports. | `C++` `Python` `Linux API` `Wireshark` |
-
-</div>
-
-> **Note**: Several security research repositories and vulnerability assessment labs are maintained in private repositories (`VulnReconX`) to adhere to academic integrity and responsible disclosure guidelines.
+*   **Digital Forensics & Incident Response (DFIR)**: Low-level file system structure analysis (NTFS metadata, $MFT records), file carving techniques, and scripting Wireshark/PCAP data extraction.
+*   **Secure Web Architecture**: Enforcing input boundary sanitization (using strict Zod schemas), mitigating OWASP Top 10 vulnerabilities, and securing API routers with stateless JWT signatures and database Row-Level Security (RLS).
+*   **Network Diagnostics**: Socket-level programming in Python/Go, banner-grabbing heuristics, and automating preflight routing verifications.
+*   **Systems Hardening**: Configuring isolated container runtimes with Docker multi-stage builds and applying least-privilege configurations to cloud identity systems (AWS IAM).
 
 ---
 
-## `0x05` GITHUB TELEMETRY & ANALYTICS
+## 0x05 | Technical Stack
 
-<div align="center">
+### Core Languages
+`Python` • `Go (Golang)` • `C++` • `C` • `TypeScript` • `JavaScript (ES6+)` • `Bash / Shell`
 
-### `[+] PROFILE METRICS & LANGUAGE DISTRIBUTION`
+### Backend & Databases
+`Node.js` • `Express.js` • `PostgreSQL` • `Redis` • `Supabase` • `MongoDB` • `MySQL` • `SQLite`
 
-<br />
+### Cloud & DevOps
+`Docker` • `AWS (Foundational Security & IAM)` • `Git & GitHub Actions` • `Netlify API`
 
-<img src="https://github-readme-stats.vercel.app/api?username=beast6713&show_icons=true&theme=tokyonight&bg_color=0D1117&title_color=00F0FF&text_color=C9D1D9&icon_color=00F0FF&border_color=30363D&hide_border=false" height="195" alt="GitHub Stats" />
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=beast6713&layout=compact&theme=tokyonight&bg_color=0D1117&title_color=00F0FF&text_color=C9D1D9&border_color=30363D&hide_border=false" height="195" alt="Top Languages" />
-
-<br /><br />
-
-### `[+] CONTROLLER STREAK & CONTINUOUS ACTIVITY`
-
-<br />
-
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=beast6713&theme=tokyonight&background=0D1117&ring=00F0FF&fire=00F0FF&currStreakLabel=00F0FF&border=30363D" alt="GitHub Streak" />
-
-</div>
+### Diagnostics & Forensics
+`Linux / Unix Systems` • `Wireshark / TShark` • `Nmap` • `Burp Suite` • `Socket Programming` • `VirtualBox`
 
 ---
 
-## `0x06` ACTIVITY VISUALIZATION & CODE SNAKE
+## 0x06 | Telemetry Dashboard
 
 <div align="center">
 
-### `[+] ACTIVITY TIMELINE`
+| Profile Analytics | Language Telemetry |
+| :---: | :---: |
+| <img src="https://github-readme-stats.vercel.app/api?username=beast6713&show_icons=true&theme=tokyonight&bg_color=0D1117&title_color=00F0FF&text_color=C9D1D9&icon_color=00F0FF&border_color=30363D&hide_border=false" height="195" alt="GitHub Stats" /> | <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=beast6713&layout=compact&theme=tokyonight&bg_color=0D1117&title_color=00F0FF&text_color=C9D1D9&border_color=30363D&hide_border=false" height="195" alt="Top Languages" /> |
 
-<br />
+</div>
 
-[![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=beast6713&bg_color=0D1117&color=00F0FF&line=00F0FF&point=C9D1D9&area=true&hide_border=true)](https://github.com/beast6713)
+<div align="center">
 
-<br />
-
-### `[+] CONTINUOUS INTEGRATION MATRIX`
-
-<br />
-
-<!-- Requires GitHub Action workflow using platane/snk to output grid-snake.svg in output/ or gh-pages branch -->
+<!-- Platane Snake contribution animation -->
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/beast6713/beast6713/output/github-contribution-grid-snake-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/beast6713/beast6713/output/github-contribution-grid-snake.svg">
-  <img alt="GitHub Contribution Snake Animation" src="https://raw.githubusercontent.com/beast6713/beast6713/output/github-contribution-grid-snake-dark.svg">
+  <img alt="GitHub Contribution Snake Animation" src="https://raw.githubusercontent.com/beast6713/beast6713/output/github-contribution-grid-snake-dark.svg" width="100%">
 </picture>
 
 </div>
 
 ---
 
-## `0x07` ACADEMIC & TECHNICAL MILESTONES
+## 0x07 | Active Work Matrix
 
-```
-┌──────────────────────────────────────────────────────────────────────────────────────────────────┐
-│  [+] ACADEMIC & PROJECT ACHIEVEMENTS                                                             │
-├──────────────────────────────────────────────────────────────────────────────────────────────────┤
-│  ▪ Architected modular cybersecurity reconnaissance tools in Python using Clean Architecture.    │
-│  ▪ Developed full-stack web applications enforcing zero-trust backend authentication patterns.   │
-│  ▪ Configured virtualized local lab environments (Linux/VirtualBox) for forensic experimentation.│
-│  ▪ Actively contributing clean, documented code and bug reports to academic & community projects.│
-└──────────────────────────────────────────────────────────────────────────────────────────────────┘
-```
-
-### `[+] CURRENT ACADEMIC & LEARNING PATHWAY`
-
-* **`Cybersecurity Foundations`**: Deepening understanding of TCP/IP networking, Linux kernel internals, and system exploitation mitigation.
-* **`Secure Web Architecture`**: Studying OWASP Top 10 mitigation strategies within modern Node.js and Next.js serverless runtimes.
-* **`Cloud & Container Security`**: Practicing Docker container isolation, multi-stage builds, and AWS foundational identity security.
+*   **Building**: Upgrading [IP-Sentinel](https://github.com/beast6713/IP-Sentinel)'s parallel collection engine to support rate-limited threat intel providers.
+*   **Learning**: Deepening my understanding of Linux Kernel internals, virtual memory architectures, and container namespaces.
+*   **Exploring**: Studying network traffic analysis patterns in raw PCAP files to automate threat signature mapping.
+*   **Researching**: Practical mitigation patterns for Server-Side Request Forgery (SSRF) in distributed microservice routing architectures.
 
 ---
 
-## `0x08` OPEN SOURCE PHILOSOPHY & COLLABORATION
+## 0x08 | Open Source & Collaboration
 
-I believe open source is the foundation of modern security and software engineering. I am always open to collaborating on:
-
-1. **Defensive Security Tools**: Python or C++ CLI utilities, log parsers, and monitoring scripts.
-2. **Full-Stack Web Applications**: Modern React/Next.js platforms with robust backend architectures.
-3. **Developer Documentation & Architecture**: Writing clear architectural blueprints, security guidelines, and reproducible lab setups.
+I believe that open-source software is critical for establishing a secure public digital infrastructure. I am interested in collaborating on:
+1.  **Defensive Tooling**: Automation scripts, parsing libraries, and network scanners built in Python, Go, or C++.
+2.  **Architectural Blueprinting**: Writing documentation and designing clean, reproducible project layouts.
+3.  **AppSec Auditing**: Reviewing application codebases for proper input validation and boundary protections.
 
 ---
 
-## `0x09` SECURE COMMUNICATION CHANNELS
+## 0x09 | Contact & Verification
 
-If you are a recruiter looking for a dedicated full-stack engineer with a strong security mindset, or a fellow developer interested in collaborating on open-source tools, feel free to reach out:
+If you are looking for an application security or software engineering intern, or want to collaborate on security projects:
 
-<div align="center">
-
-[![Connect on LinkedIn](https://img.shields.io/badge/Connect_on_LinkedIn-0D1117?style=for-the-badge&logo=linkedin&logoColor=00F0FF&borderColor=00F0FF)](https://www.linkedin.com/in/hiteshyadav6713/)
-[![Send Email](https://img.shields.io/badge/Send_Direct_Email-0D1117?style=for-the-badge&logo=gmail&logoColor=00F0FF&borderColor=00F0FF)](mailto:hiteshincode@gmail.com)
-[![Visit Portfolio](https://img.shields.io/badge/Explore_Portfolio-0D1117?style=for-the-badge&logo=google-chrome&logoColor=00F0FF&borderColor=00F0FF)](https://github.com/beast6713)
-
-</div>
+*   **Email**: [kunjeyanhitesh13@gmail.com](mailto:kunjeyanhitesh13@gmail.com)
+*   **LinkedIn**: [linkedin.com/in/hiteshyadav6713](https://www.linkedin.com/in/hiteshyadav6713)
+*   **GitHub**: [github.com/beast6713](https://github.com/beast6713)
 
 ---
 
 <div align="center">
-
-### `[+] SUPPORT & ACKNOWLEDGMENTS`
-
-If any of my open-source projects or documentation have helped your learning journey, consider starring the repositories or reaching out to share your feedback!
-
-<br />
 
 ```
 ==================================================================================================
@@ -237,7 +148,7 @@ If any of my open-source projects or documentation have helped your learning jou
 ==================================================================================================
 ```
 
-<sub>Designed and engineered by <b>Hitesh Yadav</b>. Built with clean code and defensive precision.</sub><br />
+<sub>Designed and verified by <b>Hitesh Yadav</b>. Built with clean code and systems precision.</sub><br />
 <sub>© 2026 Hitesh Yadav. All rights reserved.</sub>
 
 </div>

@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 260" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#040814" />
+      <stop offset="50%" stop-color="#080e1e" />
+      <stop offset="100%" stop-color="#02040a" />
+    </linearGradient>
+    
+    <!-- Cyber Neon Gradient -->
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00F0FF" />
+      <stop offset="100%" stop-color="#7C3AED" />
+    </linearGradient>
+
+    <!-- Dot Grid Pattern -->
+    <pattern id="dotGrid" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#1e293b" opacity="0.6" />
+    </pattern>
+  </defs>
+
+  <!-- Background -->
+  <rect width="850" height="260" fill="url(#bgGrad)" />
+  <rect width="850" height="260" fill="url(#dotGrid)" />
+
+  <!-- Diagonal Tech Lines & Cyber Accents -->
+  <path d="M-10 130 L900 130" stroke="#1e293b" stroke-width="1" opacity="0.3" />
+  <path d="M150 -10 L150 300" stroke="#1e293b" stroke-width="1" opacity="0.3" stroke-dasharray="5,5" />
+  <path d="M680 -10 L680 300" stroke="#1e293b" stroke-width="1" opacity="0.3" stroke-dasharray="5,5" />
+
+  <!-- Decorative Corner Brackets -->
+  <path d="M 20 30 L 20 20 L 30 20" stroke="#00F0FF" stroke-width="2" fill="none" opacity="0.8" />
+  <path d="M 830 30 L 830 20 L 820 20" stroke="#7C3AED" stroke-width="2" fill="none" opacity="0.8" />
+  <path d="M 20 230 L 20 240 L 30 240" stroke="#7C3AED" stroke-width="2" fill="none" opacity="0.8" />
+  <path d="M 830 230 L 830 240 L 820 240" stroke="#00F0FF" stroke-width="2" fill="none" opacity="0.8" />
+
+  <!-- Glowing Radar/Circle in Background -->
+  <circle cx="750" cy="130" r="80" stroke="#00F0FF" stroke-width="1" fill="none" opacity="0.1" stroke-dasharray="3,6" />
+  <circle cx="750" cy="130" r="50" stroke="#7C3AED" stroke-width="1" fill="none" opacity="0.15" />
+  <circle cx="750" cy="130" r="20" fill="#00F0FF" opacity="0.05" />
+
+  <!-- Network / Connection Nodes Visual on the Right -->
+  <g opacity="0.35">
+    <line x1="700" y1="80" x2="750" y2="50" stroke="#00F0FF" stroke-width="1" />
+    <line x1="750" y1="50" x2="800" y2="100" stroke="#00F0FF" stroke-width="1" />
+    <line x1="800" y1="100" x2="780" y2="170" stroke="#7C3AED" stroke-width="1" />
+    <line x1="780" y1="170" x2="710" y2="180" stroke="#7C3AED" stroke-width="1" />
+    <line x1="710" y1="180" x2="700" y2="80" stroke="#00F0FF" stroke-width="1" />
+    <line x1="750" y1="130" x2="700" y2="80" stroke="#00F0FF" stroke-width="1" />
+    <line x1="750" y1="130" x2="750" y2="50" stroke="#00F0FF" stroke-width="1" />
+    <line x1="750" y1="130" x2="800" y2="100" stroke="#00F0FF" stroke-width="1" />
+    <line x1="750" y1="130" x2="780" y2="170" stroke="#7C3AED" stroke-width="1" />
+    <line x1="750" y1="130" x2="710" y2="180" stroke="#7C3AED" stroke-width="1" />
+    
+    <circle cx="700" cy="80" r="4" fill="#00F0FF" />
+    <circle cx="750" cy="50" r="3" fill="#00F0FF" />
+    <circle cx="800" cy="100" r="4.5" fill="#00F0FF" />
+    <circle cx="780" cy="170" r="3.5" fill="#7C3AED" />
+    <circle cx="710" cy="180" r="4" fill="#7C3AED" />
+    <circle cx="750" cy="130" r="5" fill="#00F0FF" />
+  </g>
+
+  <!-- Left Tech Details (Console logs or system telemetry) -->
+  <g font-family="Consolas, Fira Code, Monaco, monospace" font-size="10" fill="#475569" opacity="0.7">
+    <text x="40" y="50">&gt; INITIALIZING SECURITY_CORE_SERVICE</text>
+    <text x="40" y="65">&gt; LOADING DIRECTORY: /dev/beast6713</text>
+    <text x="40" y="80">&gt; STATUS: [ONLINE] CLEARANCE: LEVEL_5</text>
+    <text x="40" y="200">&gt; NETWORK_PROBE: ACTIVE [127.0.0.1]</text>
+    <text x="40" y="215">&gt; ZERO_TRUST_POLICY: ENABLED [SSDLC]</text>
+  </g>
+
+  <!-- Cyber Hexagon Center Decor -->
+  <polygon points="680,130 690,112.7 710,112.7 720,130 710,147.3 690,147.3" fill="none" stroke="#00F0FF" stroke-width="1.5" opacity="0.4" />
+  <text x="694" y="133" font-family="Consolas, Fira Code, Monaco, monospace" font-size="8" fill="#00F0FF" opacity="0.7">SEC</text>
+
+  <!-- Main Name Text with Shadow/Glow -->
+  <text x="310" y="115" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-weight="900" font-size="44" fill="#FFFFFF" letter-spacing="8" text-anchor="middle">
+    HITESH YADAV
+  </text>
+  
+  <!-- Subheading Text -->
+  <text x="310" y="148" font-family="Consolas, Fira Code, Monaco, monospace" font-weight="700" font-size="12" fill="url(#accentGrad)" letter-spacing="4" text-anchor="middle">
+    SECURE SOFTWARE ENGINEER &amp; CYBERSECURITY RESEARCHER
+  </text>
+
+  <!-- Minor Monospace Badges -->
+  <g font-family="Consolas, Fira Code, Monaco, monospace" font-size="10" font-weight="normal" xml:space="preserve">
+    <text x="140" y="180" fill="#00F0FF" text-anchor="middle">[ SECURE_BY_DESIGN ]</text>
+    <text x="310" y="180" fill="#64748B" text-anchor="middle">|</text>
+    <text x="480" y="180" fill="#7C3AED" text-anchor="middle">[ ZERO_TRUST_MINDSET ]</text>
+  </g>
+
+  <!-- Bottom Accent Line -->
+  <rect x="20" y="248" width="810" height="2" fill="url(#accentGrad)" opacity="0.8" />
+</svg>
