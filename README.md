@@ -12,6 +12,7 @@
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-00F0FF?style=flat-square&logo=linkedin&logoColor=0B0F19&labelColor=0B0F19)](https://www.linkedin.com/in/hiteshyadav6713/)
 [![Email](https://img.shields.io/badge/Email-00F0FF?style=flat-square&logo=gmail&logoColor=0B0F19&labelColor=0B0F19)](mailto:kunjeyanhitesh13@gmail.com)
 [![GitHub](https://img.shields.io/badge/Portfolio-00F0FF?style=flat-square&logo=github&logoColor=0B0F19&labelColor=0B0F19)](https://github.com/beast6713)
+[![Resume](https://img.shields.io/badge/Resume-00F0FF?style=flat-square&logo=adobe-acrobat-reader&logoColor=0B0F19&labelColor=0B0F19)](RESUME_ENHANCED.pdf)
 
 </div>
 
@@ -34,35 +35,7 @@ To understand my approach to code quality, software architecture, and incident r
 
 ---
 
-## 0x03 | Featured Projects
-
-### 1. IP-Sentinel (IPIP)
-*   **Domain**: Threat Intelligence & Distributed Systems
-*   **Repository**: [github.com/beast6713/IP-Sentinel](https://github.com/beast6713/IP-Sentinel)
-*   **Core Capability**: A Clean Architecture platform that queries, normalizes, and correlates real-time IP threat intelligence from multiple external providers concurrently.
-*   **Why It Matters**: Demonstrates strict boundary separation (SOLID entity-usecase patterns) in Go and utilizes concurrent workers to parse data streams into sub-millisecond Redis cache retrievals.
-
-### 2. PortFootprint
-*   **Domain**: Network Diagnostics & Socket Engineering
-*   **Repository**: [github.com/beast6713/PortFootprint](https://github.com/beast6713/PortFootprint)
-*   **Core Capability**: A multi-threaded, cross-platform TCP port scanner and service banner grabber CLI tool that exports raw data into formatted CSV, JSON, and dark-theme HTML reports.
-*   **Why It Matters**: Engineered using Python's `concurrent.futures` to reduce network scan latency by over 60% compared to sequential socket connections, with robust banner signature matching.
-
-### 3. VulnReconX
-*   **Domain**: Extensible Security Frameworks
-*   **Repository**: [github.com/beast6713/VulnReconX](https://github.com/beast6713/VulnReconX)
-*   **Core Capability**: A modular CLI reconnaissance and vulnerability scanning utility driven by a dynamic, YAML-defined plugin registry.
-*   **Why It Matters**: Standardizes scanning tasks through abstract interfaces, ensuring plugins are safely discovered and executed during preflight target validation.
-
-### 4. NTFS Forensic Recovery Tool
-*   **Domain**: Digital Forensics & Binary Parsing
-*   **Repository**: [github.com/beast6713/ntfs-forensic-recovery](https://github.com/beast6713/ntfs-forensic-recovery)
-*   **Core Capability**: A standalone forensics utility that reads raw disk partition images to parse NTFS internal records and carve deleted artifacts.
-*   **Why It Matters**: Bypasses the operating system's standard APIs to read disk sectors directly, parsing the Master File Table ($MFT) and decoding cluster runlists to reconstruct fragmented files.
-
----
-
-## 0x04 | Cybersecurity Research
+## 0x03 | Cybersecurity Research
 
 My projects and academic study focus on the following domains:
 
@@ -73,7 +46,7 @@ My projects and academic study focus on the following domains:
 
 ---
 
-## 0x05 | Technical Stack
+## 0x04 | Technical Stack
 
 ### Core Languages
 `Python` • `Go (Golang)` • `C++` • `C` • `TypeScript` • `JavaScript (ES6+)` • `Bash / Shell`
@@ -89,7 +62,7 @@ My projects and academic study focus on the following domains:
 
 ---
 
-## 0x06 | Telemetry Dashboard
+## 0x05 | Telemetry Dashboard
 
 <div align="center">
 
@@ -98,6 +71,17 @@ My projects and academic study focus on the following domains:
 | <img src="https://github-readme-stats.vercel.app/api?username=beast6713&show_icons=true&theme=tokyonight&bg_color=0D1117&title_color=00F0FF&text_color=C9D1D9&icon_color=00F0FF&border_color=30363D&hide_border=false" height="195" alt="GitHub Stats" /> | <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=beast6713&layout=compact&theme=tokyonight&bg_color=0D1117&title_color=00F0FF&text_color=C9D1D9&border_color=30363D&hide_border=false" height="195" alt="Top Languages" /> |
 
 </div>
+
+<br />
+
+<div align="center">
+
+<!-- Daily contribution activity graph -->
+[![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=beast6713&bg_color=0D1117&color=00F0FF&line=00F0FF&point=C9D1D9&area=true&hide_border=true)](https://github.com/beast6713)
+
+</div>
+
+<br />
 
 <div align="center">
 
@@ -112,7 +96,7 @@ My projects and academic study focus on the following domains:
 
 ---
 
-## 0x07 | Active Work Matrix
+## 0x06 | Active Work Matrix
 
 *   **Building**: Upgrading [IP-Sentinel](https://github.com/beast6713/IP-Sentinel)'s parallel collection engine to support rate-limited threat intel providers.
 *   **Learning**: Deepening my understanding of Linux Kernel internals, virtual memory architectures, and container namespaces.
@@ -121,7 +105,7 @@ My projects and academic study focus on the following domains:
 
 ---
 
-## 0x08 | Open Source & Collaboration
+## 0x07 | Open Source & Collaboration
 
 I believe that open-source software is critical for establishing a secure public digital infrastructure. I am interested in collaborating on:
 1.  **Defensive Tooling**: Automation scripts, parsing libraries, and network scanners built in Python, Go, or C++.
@@ -130,7 +114,7 @@ I believe that open-source software is critical for establishing a secure public
 
 ---
 
-## 0x09 | Contact & Verification
+## 0x08 | Contact & Verification
 
 If you are looking for an application security or software engineering intern, or want to collaborate on security projects:
 
