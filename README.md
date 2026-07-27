@@ -64,15 +64,7 @@ My projects and academic study focus on the following domains:
 
 ## 0x05 | Telemetry Dashboard
 
-<div align="center">
 
-| Profile Analytics | Language Telemetry |
-| :---: | :---: |
-| <img src="https://github-readme-stats.vercel.app/api?username=beast6713&show_icons=true&theme=tokyonight&bg_color=0D1117&title_color=00F0FF&text_color=C9D1D9&icon_color=00F0FF&border_color=30363D&hide_border=false" height="195" alt="GitHub Stats" /> | <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=beast6713&layout=compact&theme=tokyonight&bg_color=0D1117&title_color=00F0FF&text_color=C9D1D9&border_color=30363D&hide_border=false" height="195" alt="Top Languages" /> |
-
-</div>
-
-<br />
 
 <div align="center">
 
