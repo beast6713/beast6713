@@ -11,7 +11,7 @@
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-00F0FF?style=flat-square&logo=linkedin&logoColor=0B0F19&labelColor=0B0F19)](https://www.linkedin.com/in/hiteshyadav6713/)
 [![Email](https://img.shields.io/badge/Email-00F0FF?style=flat-square&logo=gmail&logoColor=0B0F19&labelColor=0B0F19)](mailto:kunjeyanhitesh13@gmail.com)
-[![GitHub](https://img.shields.io/badge/Portfolio-00F0FF?style=flat-square&logo=github&logoColor=0B0F19&labelColor=0B0F19)](https://github.com/beast6713)
+[![GitHub](https://img.shields.io/badge/Portfolio-00F0FF?style=flat-square&logo=github&logoColor=0B0F19&labelColor=0B0F19)](https://hitesh-portfolio-beast6713s-projects.vercel.app)
 [![Resume](https://img.shields.io/badge/Resume-00F0FF?style=flat-square&logo=adobe-acrobat-reader&logoColor=0B0F19&labelColor=0B0F19)](RESUME_ENHANCED.pdf)
 
 </div>
