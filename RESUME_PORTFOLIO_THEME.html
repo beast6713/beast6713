@@ -1,0 +1,740 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hitesh Yadav — Resume & Portfolio Theme</title>
+  <!-- Google Fonts: Inter & Outfit & Fira Code -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700;800&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  
+  <style>
+    /* ==========================================================================
+       DARK MEDIEVAL CASTLE & GOTHIC CYBER CITADEL RESUME THEME
+       Matching Hitesh's Portfolio Aesthetic (Crimson & Gold Accents + Dark Glass)
+       ========================================================================== */
+    :root {
+      --bg-dark: #090a0f;
+      --bg-card: rgba(18, 20, 29, 0.85);
+      --bg-card-hover: rgba(26, 29, 42, 0.95);
+      --text-main: #f8fafc;
+      --text-muted: #94a3b8;
+      --text-subtle: #64748b;
+      
+      --primary-red: #dc2626;
+      --primary-red-glow: rgba(220, 38, 38, 0.4);
+      --border-red: rgba(220, 38, 38, 0.3);
+      
+      --accent-gold: #f59e0b;
+      --accent-gold-glow: rgba(245, 158, 11, 0.3);
+      --border-gold: rgba(245, 158, 11, 0.3);
+      
+      --font-heading: 'Outfit', 'Inter', sans-serif;
+      --font-body: 'Inter', sans-serif;
+      --font-code: 'Fira Code', monospace;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background-color: var(--bg-dark);
+      color: var(--text-main);
+      font-family: var(--font-body);
+      line-height: 1.6;
+      padding: 2.5rem 1.5rem;
+      background-image: 
+        radial-gradient(circle at 15% 15%, rgba(220, 38, 38, 0.08) 0%, transparent 40%),
+        radial-gradient(circle at 85% 85%, rgba(245, 158, 11, 0.05) 0%, transparent 40%);
+      background-attachment: fixed;
+    }
+
+    .container {
+      max-width: 960px;
+      margin: 0 auto;
+    }
+
+    /* Print / PDF Controls Bar */
+    .controls {
+      display: flex;
+      justify-content: flex-end;
+      gap: 12px;
+      margin-bottom: 1.5rem;
+    }
+
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 8px 16px;
+      background: var(--bg-card);
+      border: 1px solid var(--border-red);
+      color: var(--text-main);
+      font-family: var(--font-code);
+      font-size: 0.85rem;
+      font-weight: 600;
+      border-radius: 4px;
+      cursor: pointer;
+      transition: all 0.25s ease;
+      text-decoration: none;
+      clip-path: polygon(0 0, calc(100% - 8px) 0, 100% 8px, 100% 100%, 8px 100%, 0 calc(100% - 8px));
+    }
+
+    .btn:hover {
+      background: var(--primary-red);
+      color: #ffffff;
+      box-shadow: 0 0 15px var(--primary-red-glow);
+      transform: translateY(-2px);
+    }
+
+    .btn-gold:hover {
+      background: var(--accent-gold);
+      color: #090a0f;
+      box-shadow: 0 0 15px var(--accent-gold-glow);
+    }
+
+    /* Header Section */
+    .resume-header {
+      background: var(--bg-card);
+      backdrop-filter: blur(14px);
+      -webkit-backdrop-filter: blur(14px);
+      border: 1px solid var(--border-red);
+      border-left: 4px solid var(--primary-red);
+      padding: 2.2rem;
+      border-radius: 6px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.6);
+      margin-bottom: 2rem;
+      position: relative;
+    }
+
+    .name-title-container {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      flex-wrap: wrap;
+      gap: 1rem;
+    }
+
+    h1.name {
+      font-family: var(--font-heading);
+      font-size: 2.5rem;
+      font-weight: 800;
+      letter-spacing: -0.02em;
+      color: #ffffff;
+      text-shadow: 0 0 12px var(--primary-red-glow);
+      line-height: 1.1;
+    }
+
+    .subtitle {
+      font-family: var(--font-code);
+      font-size: 1.05rem;
+      color: var(--accent-gold);
+      font-weight: 600;
+      margin-top: 4px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .gpa-badge {
+      display: inline-block;
+      background: rgba(245, 158, 11, 0.15);
+      border: 1px solid var(--border-gold);
+      color: var(--accent-gold);
+      padding: 2px 10px;
+      font-size: 0.85rem;
+      border-radius: 20px;
+      font-weight: 700;
+    }
+
+    .contact-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 10px;
+      margin-top: 1.5rem;
+      padding-top: 1.2rem;
+      border-top: 1px dashed rgba(220, 38, 38, 0.25);
+      font-family: var(--font-code);
+      font-size: 0.85rem;
+    }
+
+    .contact-item {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      color: var(--text-muted);
+    }
+
+    .contact-item a {
+      color: var(--text-main);
+      text-decoration: none;
+      transition: color 0.2s ease;
+    }
+
+    .contact-item a:hover {
+      color: var(--primary-red);
+      text-decoration: underline;
+    }
+
+    /* Section Cards */
+    .section-card {
+      background: var(--bg-card);
+      backdrop-filter: blur(14px);
+      -webkit-backdrop-filter: blur(14px);
+      border: 1px solid var(--border-red);
+      padding: 1.8rem;
+      border-radius: 6px;
+      margin-bottom: 1.8rem;
+      box-shadow: 0 8px 25px rgba(0, 0, 0, 0.5);
+      transition: border-color 0.3s ease;
+    }
+
+    .section-card:hover {
+      border-color: rgba(220, 38, 38, 0.5);
+    }
+
+    .section-title {
+      font-family: var(--font-heading);
+      font-size: 1.35rem;
+      font-weight: 700;
+      color: #ffffff;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      margin-bottom: 1.2rem;
+      padding-bottom: 8px;
+      border-bottom: 2px solid var(--border-red);
+    }
+
+    .section-title::before {
+      content: '//';
+      color: var(--primary-red);
+      font-family: var(--font-code);
+      font-weight: 700;
+    }
+
+    /* Summary & Education */
+    .summary-text {
+      color: var(--text-muted);
+      font-size: 0.95rem;
+      line-height: 1.7;
+    }
+
+    .summary-text strong {
+      color: var(--text-main);
+    }
+
+    .edu-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+
+    .degree {
+      font-size: 1.05rem;
+      font-weight: 700;
+      color: #ffffff;
+    }
+
+    .school {
+      color: var(--accent-gold);
+      font-weight: 600;
+      font-size: 0.95rem;
+    }
+
+    .date {
+      font-family: var(--font-code);
+      font-size: 0.85rem;
+      color: var(--text-subtle);
+    }
+
+    .course-list {
+      margin-top: 10px;
+      font-size: 0.9rem;
+      color: var(--text-muted);
+    }
+
+    /* Skills Grid */
+    .skills-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 1.2rem;
+    }
+
+    .skill-category {
+      background: rgba(10, 12, 18, 0.6);
+      border: 1px solid rgba(255, 255, 255, 0.08);
+      padding: 1rem;
+      border-radius: 4px;
+    }
+
+    .category-name {
+      font-family: var(--font-code);
+      font-size: 0.85rem;
+      font-weight: 700;
+      color: var(--accent-gold);
+      margin-bottom: 8px;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+
+    .tag-container {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+    }
+
+    .tag {
+      background: rgba(220, 38, 38, 0.1);
+      border: 1px solid rgba(220, 38, 38, 0.25);
+      color: #f1f5f9;
+      font-size: 0.8rem;
+      font-family: var(--font-code);
+      padding: 3px 8px;
+      border-radius: 3px;
+      transition: all 0.2s ease;
+    }
+
+    .tag:hover {
+      background: rgba(220, 38, 38, 0.25);
+      border-color: var(--primary-red);
+    }
+
+    /* Project Cards */
+    .project-item {
+      margin-bottom: 1.5rem;
+      padding-bottom: 1.5rem;
+      border-bottom: 1px dashed rgba(255, 255, 255, 0.1);
+    }
+
+    .project-item:last-child {
+      margin-bottom: 0;
+      padding-bottom: 0;
+      border-bottom: none;
+    }
+
+    .project-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-bottom: 4px;
+    }
+
+    .project-title {
+      font-family: var(--font-heading);
+      font-size: 1.15rem;
+      font-weight: 700;
+      color: #ffffff;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .flagship-badge {
+      background: linear-gradient(135deg, #dc2626, #b91c1c);
+      color: #ffffff;
+      font-family: var(--font-code);
+      font-size: 0.7rem;
+      font-weight: 700;
+      padding: 2px 6px;
+      border-radius: 3px;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+
+    .project-tagline {
+      font-style: italic;
+      color: var(--accent-gold);
+      font-size: 0.88rem;
+      margin-bottom: 8px;
+    }
+
+    .bullet-list {
+      list-style-type: none;
+      padding-left: 0;
+    }
+
+    .bullet-list li {
+      position: relative;
+      padding-left: 1.2rem;
+      margin-bottom: 6px;
+      font-size: 0.92rem;
+      color: var(--text-muted);
+    }
+
+    .bullet-list li::before {
+      content: '▹';
+      position: absolute;
+      left: 0;
+      color: var(--primary-red);
+      font-weight: bold;
+    }
+
+    .bullet-list li strong {
+      color: var(--text-main);
+    }
+
+    .tech-stack-row {
+      margin-top: 8px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      align-items: center;
+    }
+
+    .tech-stack-label {
+      font-family: var(--font-code);
+      font-size: 0.75rem;
+      color: var(--text-subtle);
+      font-weight: 700;
+    }
+
+    /* Achievements */
+    .achievement-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 1rem;
+    }
+
+    .achievement-card {
+      background: rgba(10, 12, 18, 0.6);
+      border: 1px solid var(--border-gold);
+      padding: 1rem;
+      border-radius: 4px;
+      display: flex;
+      align-items: flex-start;
+      gap: 12px;
+    }
+
+    .achievement-icon {
+      color: var(--accent-gold);
+      font-size: 1.2rem;
+    }
+
+    .achievement-text strong {
+      color: #ffffff;
+    }
+
+    .achievement-text p {
+      font-size: 0.85rem;
+      color: var(--text-muted);
+    }
+
+    /* Footer */
+    footer {
+      text-align: center;
+      padding-top: 1.5rem;
+      border-top: 1px solid var(--border-red);
+      font-family: var(--font-code);
+      font-size: 0.8rem;
+      color: var(--text-subtle);
+    }
+
+    /* PRINT STYLESHEET (PDF Export Optimization) */
+    @media print {
+      body {
+        background: #ffffff !important;
+        color: #0f172a !important;
+        padding: 0 !important;
+      }
+      .controls { display: none !important; }
+      .section-card, .resume-header {
+        background: #ffffff !important;
+        border: 1px solid #cbd5e1 !important;
+        box-shadow: none !important;
+        color: #0f172a !important;
+        backdrop-filter: none !important;
+      }
+      h1.name, .section-title, .degree, .project-title, strong {
+        color: #0f172a !important;
+        text-shadow: none !important;
+      }
+      .subtitle, .school, .category-name, .project-tagline, .achievement-icon {
+        color: #b91c1c !important;
+      }
+      .tag {
+        background: #f1f5f9 !important;
+        border: 1px solid #cbd5e1 !important;
+        color: #0f172a !important;
+      }
+      .bullet-list li { color: #334155 !important; }
+      .bullet-list li::before { color: #b91c1c !important; }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    
+    <!-- Printable Controls Bar -->
+    <div class="controls">
+      <button class="btn" onclick="window.print()">🖨️ Print / Save as PDF</button>
+      <a class="btn btn-gold" href="https://github.com/beast6713" target="_blank">🌐 GitHub Profile</a>
+    </div>
+
+    <!-- Resume Header -->
+    <header class="resume-header">
+      <div class="name-title-container">
+        <div>
+          <h1 class="name">HITESH YADAV</h1>
+          <div class="subtitle">
+            <span>Cybersecurity Specialist &amp; Secure Software Architect</span>
+            <span class="gpa-badge">GPA 9.52/10</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="contact-grid">
+        <div class="contact-item">📍 Delhi, India</div>
+        <div class="contact-item">📞 +91 81681 48782</div>
+        <div class="contact-item">✉️ <a href="mailto:kunjeyanhitesh13@gmail.com">kunjeyanhitesh13@gmail.com</a></div>
+        <div class="contact-item">🔗 <a href="https://www.linkedin.com/in/hiteshyadav6713" target="_blank">linkedin.com/in/hiteshyadav6713</a></div>
+        <div class="contact-item">💻 <a href="https://github.com/beast6713" target="_blank">github.com/beast6713</a></div>
+      </div>
+    </header>
+
+    <!-- Professional Summary -->
+    <section class="section-card">
+      <h2 class="section-title">Professional Summary</h2>
+      <p class="summary-text">
+        High-performing <strong>Computer Science Engineering Student (Specialization in Cybersecurity)</strong> at SRM IST with an outstanding <strong>9.52/10 GPA</strong>. Passionate about building modular, secure-by-design software engines, automated network scanners, and resilient full-stack applications. Proven expertise in <strong>Clean Architecture</strong>, multi-threaded engine design, digital forensics (NTFS raw binary parsing), OWASP Top 10 mitigation, and Zero-Trust SDLC implementation.
+      </p>
+    </section>
+
+    <!-- Education -->
+    <section class="section-card">
+      <h2 class="section-title">Education</h2>
+      <div class="edu-header">
+        <div>
+          <div class="degree">B.Tech in Computer Science Engineering (Specialization in Cybersecurity)</div>
+          <div class="school">SRM Institute of Science &amp; Technology (SRM IST), Chennai, TN</div>
+        </div>
+        <div class="date">Expected Graduation: May 2028 | GPA: 9.52 / 10.0</div>
+      </div>
+      <div class="course-list">
+        <strong>Core Coursework:</strong> Network Security &amp; Cryptography, Operating Systems &amp; Linux Kernel Internals, Data Structures &amp; Algorithms, Object-Oriented Programming (C++/Python), Relational Databases (PostgreSQL/MySQL), Digital Forensics &amp; Incident Response, Web Architecture &amp; SSDLC.
+      </div>
+    </section>
+
+    <!-- Technical Skills -->
+    <section class="section-card">
+      <h2 class="section-title">Technical Skills</h2>
+      <div class="skills-grid">
+        <div class="skill-category">
+          <div class="category-name">Languages</div>
+          <div class="tag-container">
+            <span class="tag">Python 3.12+</span>
+            <span class="tag">Go (Golang)</span>
+            <span class="tag">C++</span>
+            <span class="tag">TypeScript</span>
+            <span class="tag">JavaScript (ES6+)</span>
+            <span class="tag">Bash / Shell</span>
+          </div>
+        </div>
+
+        <div class="skill-category">
+          <div class="category-name">Frameworks &amp; Libraries</div>
+          <div class="tag-container">
+            <span class="tag">React.js</span>
+            <span class="tag">Next.js (App Router)</span>
+            <span class="tag">Node.js</span>
+            <span class="tag">Express.js</span>
+            <span class="tag">Playwright</span>
+            <span class="tag">Jinja2</span>
+          </div>
+        </div>
+
+        <div class="skill-category">
+          <div class="category-name">Security &amp; Forensics</div>
+          <div class="tag-container">
+            <span class="tag">OWASP ZAP API</span>
+            <span class="tag">Reflected XSS Verification</span>
+            <span class="tag">NTFS Binary Carving</span>
+            <span class="tag">Wireshark / TShark</span>
+            <span class="tag">Nmap</span>
+            <span class="tag">Burp Suite</span>
+            <span class="tag">Socket Programming</span>
+          </div>
+        </div>
+
+        <div class="skill-category">
+          <div class="category-name">Databases &amp; Infrastructure</div>
+          <div class="tag-container">
+            <span class="tag">PostgreSQL</span>
+            <span class="tag">Redis</span>
+            <span class="tag">Docker &amp; Compose</span>
+            <span class="tag">MongoDB</span>
+            <span class="tag">Supabase</span>
+            <span class="tag">Linux Admin</span>
+            <span class="tag">AWS IAM</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Featured Projects -->
+    <section class="section-card">
+      <h2 class="section-title">Featured Engineering Projects</h2>
+
+      <!-- Project 1: HTTP Security Assessment Framework -->
+      <div class="project-item">
+        <div class="project-header">
+          <div class="project-title">
+            HTTP Security Assessment Framework (v2.0.0)
+            <span class="flagship-badge">Flagship Project</span>
+          </div>
+          <div class="date">Python 3.12+ | Pytest | Playwright | OWASP ZAP</div>
+        </div>
+        <div class="project-tagline">Enterprise-grade, 10-phase modular web security assessment CLI &amp; cross-validation framework.</div>
+        <ul class="bullet-list">
+          <li><strong>Architecture &amp; Quality:</strong> Designed a unified Single Source of Truth architecture (<code>AssessmentResult</code>) achieving <strong>92.24% line coverage</strong> across 130 unit tests with strict <code>mypy</code> static typing.</li>
+          <li><strong>Multi-Engine Pipeline:</strong> Engineered discovery web crawler, AST security header validator (HSTS/CSP/XFO/XCTO), passive TLS/cookie analyzer, and weighted risk scoring engine.</li>
+          <li><strong>Browser &amp; ZAP Integration:</strong> Integrated Playwright headless Chromium for real browser DOM enforcement verification and OWASP ZAP REST API engine for findings cross-validation.</li>
+          <li><strong>Active Verification &amp; Safety:</strong> Programmed safe Reflected XSS parameter verification with rate limiting and <code>SafetyPolicy</code> request safeguards.</li>
+        </ul>
+        <div class="tech-stack-row">
+          <span class="tech-stack-label">STACK:</span>
+          <span class="tag">Python 3.12</span>
+          <span class="tag">Playwright</span>
+          <span class="tag">OWASP ZAP</span>
+          <span class="tag">pytest-cov</span>
+          <span class="tag">Jinja2</span>
+          <span class="tag">Rich CLI</span>
+        </div>
+      </div>
+
+      <!-- Project 2: IP-Sentinel -->
+      <div class="project-item">
+        <div class="project-header">
+          <div class="project-title">IP-Sentinel (IP Intelligence Platform)</div>
+          <div class="date">Go (Golang) | Next.js | Redis | Docker</div>
+        </div>
+        <div class="project-tagline">Modular Clean Architecture IP threat intelligence and real-time SOC monitoring dashboard.</div>
+        <ul class="bullet-list">
+          <li><strong>Clean Architecture Backend:</strong> Architected a high-concurrency threat investigation engine in <strong>Go (Golang)</strong> adhering strictly to Clean Architecture principles.</li>
+          <li><strong>Parallel Investigation Engine:</strong> Developed concurrent workers fetching WHOIS, RDAP, DNS, and threat intelligence feeds simultaneously.</li>
+          <li><strong>Sub-Millisecond Caching:</strong> Integrated a Redis caching tier to eliminate redundant API calls and accelerate response times.</li>
+        </ul>
+        <div class="tech-stack-row">
+          <span class="tech-stack-label">STACK:</span>
+          <span class="tag">Go</span>
+          <span class="tag">Next.js</span>
+          <span class="tag">TypeScript</span>
+          <span class="tag">Redis</span>
+          <span class="tag">PostgreSQL</span>
+          <span class="tag">Docker</span>
+        </div>
+      </div>
+
+      <!-- Project 3: MindEase -->
+      <div class="project-item">
+        <div class="project-header">
+          <div class="project-title">MindEase – AI Mental Wellness Platform</div>
+          <div class="date">React.js | Node.js | Google Gemini API | Express</div>
+        </div>
+        <div class="project-tagline">AI-assisted wellness application with real-time emotion detection and crisis safety filtering.</div>
+        <ul class="bullet-list">
+          <li><strong>LLM &amp; Crisis Safeguards:</strong> Integrated <strong>Google Gemini API</strong> for context-aware conversational support with strict input safety filters.</li>
+          <li><strong>Canvas Particle Simulation:</strong> Programmed a custom stress-relief workspace using an <strong>HTML5 Canvas</strong> interactive particle animation engine.</li>
+        </ul>
+        <div class="tech-stack-row">
+          <span class="tech-stack-label">STACK:</span>
+          <span class="tag">React.js</span>
+          <span class="tag">TypeScript</span>
+          <span class="tag">Node.js</span>
+          <span class="tag">PostgreSQL</span>
+          <span class="tag">Gemini API</span>
+        </div>
+      </div>
+
+      <!-- Project 4: PortFootprint -->
+      <div class="project-item">
+        <div class="project-header">
+          <div class="project-title">PortFootprint – Multi-Threaded TCP Port Scanner &amp; Fingerprinter</div>
+          <div class="date">Python | Socket Programming | Concurrency</div>
+        </div>
+        <div class="project-tagline">High-concurrency TCP port scanner and service banner-grabbing CLI tool.</div>
+        <ul class="bullet-list">
+          <li><strong>60%+ Latency Reduction:</strong> Developed a multi-threaded socket connect scanner in Python using <code>ThreadPoolExecutor</code>.</li>
+          <li><strong>Service Fingerprinting:</strong> Implemented priority banner-grabbing probes matching welcome banners across HTTP, SSH, FTP, and SMTP ports.</li>
+        </ul>
+        <div class="tech-stack-row">
+          <span class="tech-stack-label">STACK:</span>
+          <span class="tag">Python</span>
+          <span class="tag">Sockets</span>
+          <span class="tag">Concurrency</span>
+          <span class="tag">HTML/JSON Reports</span>
+        </div>
+      </div>
+
+      <!-- Project 5: NTFS Forensic Recovery Tool -->
+      <div class="project-item">
+        <div class="project-header">
+          <div class="project-title">NTFS Forensic Artifact Carving &amp; Recovery Tool</div>
+          <div class="date">Python | Binary Carving | Digital Forensics</div>
+        </div>
+        <div class="project-tagline">Low-level digital forensics tool parsing raw NTFS disk images and Master File Tables.</div>
+        <ul class="bullet-list">
+          <li><strong>Raw Binary Parsing:</strong> Directly parsed the NTFS Master File Table (MFT), runlist data structures, and magic number signatures to carve deleted files.</li>
+          <li><strong>Forensic Hashing Integrity:</strong> Computed SHA-256 and MD5 cryptographic hashes ensuring strict forensic chain of custody.</li>
+        </ul>
+        <div class="tech-stack-row">
+          <span class="tech-stack-label">STACK:</span>
+          <span class="tag">Python</span>
+          <span class="tag">NTFS Internals</span>
+          <span class="tag">Binary Carving</span>
+          <span class="tag">SHA-256</span>
+        </div>
+      </div>
+
+    </section>
+
+    <!-- Honors & Achievements -->
+    <section class="section-card">
+      <h2 class="section-title">Honors &amp; Accomplishments</h2>
+      <div class="achievement-grid">
+        <div class="achievement-card">
+          <div class="achievement-icon">🏆</div>
+          <div class="achievement-text">
+            <strong>3rd Place — SRM IST CTF Cybersecurity Competition</strong>
+            <p>Solved challenges in web exploitation, reverse engineering, and cryptography.</p>
+          </div>
+        </div>
+
+        <div class="achievement-card">
+          <div class="achievement-icon">🚀</div>
+          <div class="achievement-text">
+            <strong>Participant — Smart India Hackathon (SIH) 2025</strong>
+            <p>Developed innovative technical solutions for national-level problem statements.</p>
+          </div>
+        </div>
+
+        <div class="achievement-card">
+          <div class="achievement-icon">⭐</div>
+          <div class="achievement-text">
+            <strong>Academic Excellence — 9.52 / 10.0 GPA</strong>
+            <p>Consistent top performance in B.Tech Cybersecurity at SRM IST.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <p>© 2026 Hitesh Yadav • Built with Clean Engineering &amp; Cyber Citadel Styling</p>
+    </footer>
+
+  </div>
+
+</body>
+</html>

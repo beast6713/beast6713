@@ -532,6 +532,70 @@ graph TD
 
 ---
 
+## Project 06: HTTP Security Assessment Framework (v2.0.0)
+> Enterprise-grade 10-phase web security assessment CLI & cross-validation engine built with Single Source of Truth architecture, Playwright browser verification, and OWASP ZAP REST API integration.
+
+### 01. Branding & Theme Tokens
+*   **Primary Palette**: Obsidian Space (`#090A0F`), Dark Castle Glass (`#12141D`), Crimson Accent (`#DC2626`), Gold Accent (`#F59E0B`).
+
+### 02. Professional Badges
+```markdown
+[![Python Version](https://img.shields.io/badge/python-3.12%2B-blue.svg)](https://www.python.org/downloads/)
+[![Coverage Status](https://img.shields.io/badge/coverage-92.2%25-brightgreen.svg)](htmlcov/index.html)
+[![Code Style: Black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
+[![Imports: Ruff](https://img.shields.io/badge/imports-ruff-261230.svg)](https://github.com/astral-sh/ruff)
+[![Type Checked: Mypy](https://img.shields.io/badge/type--checked-mypy-blue.svg)](http://mypy-lang.org/)
+[![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
+```
+
+### 03. Folder Structure Visualization
+```
+http-security-framework/
+├── active/                 # Phase 7: Active verification verifiers & rate limiters
+├── analysis/               # Phase 4: Multi-domain passive security analyzers
+├── browser/                # Phase 8: DOM, Console, Network, CSP collectors
+├── config/                 # Phase 1: 3-tier configuration hierarchy loader
+├── core/                   # Phase 2: Single Source of Truth runtime & WebCrawler
+├── cross_validation/        # Phase 9: OWASP ZAP finding matcher & correlation engine
+├── models/                 # Data model dataclasses (AssessmentResult, ValidationResult)
+├── playwright_engine/      # Phase 8: Playwright browser manager & verifiers
+├── reporting/              # Phase 6: Jinja2 HTML renderer, JSON exporter, CLI renderer
+├── risk/                   # Phase 5: Weighted risk scoring & grading matrix engine
+├── utils/                  # Exceptions, filesystem, URL, & logger utilities
+└── validators/             # Phase 3: Security header AST rule validators
+```
+
+### 04. Execution Pipeline Sequence Diagram
+```mermaid
+sequenceDiagram
+    autonumber
+    participant CLI as CLI User / Script
+    participant Main as main.py
+    participant Core as RuntimeEnvironment
+    participant Crawl as WebCrawler
+    participant Val as HeaderValidator
+    participant Pass as PassiveAnalyzer
+    participant Act as ActiveEngine
+    participant Play as PlaywrightEngine
+    participant Risk as RiskEngine
+    participant ZAP as CrossValidationEngine
+    participant Rep as ReportExporter
+
+    CLI->>Main: http-sec https://target.com [flags]
+    Main->>Core: create_context(target_url, flags)
+    Main->>Crawl: crawl()
+    Main->>Val: validate_crawl_result()
+    Main->>Pass: run_analysis()
+    Main->>Act: run_verification()
+    Main->>Play: run_engine()
+    Main->>Risk: evaluate()
+    Main->>ZAP: run_cross_validation()
+    Main->>Rep: export()
+    Rep-->>CLI: Display Terminal Summary & file:/// URIs
+```
+
+---
+
 # Custom Documentation Callout Box Standards
 All callouts used in project manuals must use the following standard style structures:
 

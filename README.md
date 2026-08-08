@@ -1,5 +1,5 @@
 # Hitesh Yadav
-### Secure Software Engineer & Cybersecurity Researcher
+### Secure Software Engineer & Cybersecurity Specialist
 
 <p align="center">
   <img src="cyber_banner.svg" width="100%" alt="Hitesh Yadav Banner" />
@@ -7,12 +7,13 @@
 
 <div align="center">
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=16&pause=1000&color=00F0FF&center=true&vCenter=true&width=750&lines=Zero-Trust+Engineering+%7C+Securing+Software+at+the+Design+Layer;Building+Concurrent+Network+Scanners+%26+Forensic+Parsers;Developing+Clean+Architecture+Applications+in+Go+%26+Next.js)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=16&pause=1000&color=DC2626&center=true&vCenter=true&width=750&lines=Zero-Trust+Engineering+%7C+Securing+Software+at+the+Design+Layer;Building+Concurrent+Network+Scanners+%26+Security+Engines;Architecting+10-Phase+Security+Frameworks+in+Python+%26+Go)](https://git.io/typing-svg)
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-00F0FF?style=flat-square&logo=linkedin&logoColor=0B0F19&labelColor=0B0F19)](https://www.linkedin.com/in/hiteshyadav6713/)
 [![Email](https://img.shields.io/badge/Email-00F0FF?style=flat-square&logo=gmail&logoColor=0B0F19&labelColor=0B0F19)](mailto:kunjeyanhitesh13@gmail.com)
-[![GitHub](https://img.shields.io/badge/Portfolio-00F0FF?style=flat-square&logo=github&logoColor=0B0F19&labelColor=0B0F19)](https://hitesh-portfolio-beast6713s-projects.vercel.app)
-[![Resume](https://img.shields.io/badge/Resume-00F0FF?style=flat-square&logo=adobe-acrobat-reader&logoColor=0B0F19&labelColor=0B0F19)](RESUME_ENHANCED.pdf)
+[![Portfolio](https://img.shields.io/badge/Portfolio-00F0FF?style=flat-square&logo=react&logoColor=0B0F19&labelColor=0B0F19)](https://hitesh-portfolio-beast6713s-projects.vercel.app)
+[![Interactive Resume](https://img.shields.io/badge/Interactive_Resume-00F0FF?style=flat-square&logo=html5&logoColor=0B0F19&labelColor=0B0F19)](RESUME_PORTFOLIO_THEME.html)
+[![Markdown Resume](https://img.shields.io/badge/Markdown_Resume-00F0FF?style=flat-square&logo=markdown&logoColor=0B0F19&labelColor=0B0F19)](RESUME_ENHANCED.md)
 
 </div>
 
@@ -20,26 +21,29 @@
 
 ## 0x01 | Profile Summary
 
-I am a Computer Science Engineering student specializing in **Cybersecurity** at SRM Institute of Science & Technology, Chennai (Expected Graduation: May 2028 | GPA: 9.52/10). 
+I am a Computer Science Engineering student specializing in **Cybersecurity** at SRM Institute of Science & Technology, Chennai (**Expected Graduation: May 2028 | GPA: 9.52/10**). 
 
-My engineering core focus is on the boundary where high-performance software engineering meets defensive security. I believe security must be architected into software at the design phase rather than added as a deployment patch. By studying low-level systems (such as NTFS disk structures, TCP socket routines, and authorization boundaries), I build robust applications that are secure by design.
+My engineering core focus is on the boundary where high-performance software engineering meets defensive security and vulnerability verification. I believe security must be architected into software at the design phase rather than added as a deployment patch. By studying low-level systems (such as raw NTFS disk structures, TCP socket routines, AST rule validators, and authorization boundaries), I build robust applications that are secure by design.
 
 ---
 
 ## 0x02 | Core Engineering Gateway
 
-To understand my approach to code quality, software architecture, and incident response, explore these master documents:
+To understand my approach to code quality, software architecture, and security engineering, explore these master blueprints:
 
+*   **[HTTP Security Assessment Framework](https://github.com/beast6713/http-security-framework)**: My flagship 10-phase modular web security assessment engine built with Single Source of Truth architecture, Playwright browser verification, OWASP ZAP cross-validation, and 92.24% test coverage.
+*   **[IP-Sentinel Threat Platform](https://github.com/beast6713/IP-Sentinel)**: High-concurrency Go threat correlation engine built with Clean Architecture, parallel collection workers, Redis caching, and Next.js SOC dashboard.
+*   **[VulnReconX Recon Framework](https://github.com/beast6713/VulnReconX)**: Extensible security reconnaissance framework with YAML manifest plugin registry and SOLID boundary separation.
 *   **[DevOps & Actions Guide](DEVOPS_INTEGRATION_GUIDE.md)**: Specifications for my automated testing, static analysis (Black, Ruff, MyPy, Bandit), dependency supply chain vulnerability scanning (`pip-audit`), and Docker build pipelines.
 *   **[Documentation & Blueprint Master](DOCUMENTATION_BLUEPRINT.md)**: Architectural blueprints, execution flowcharts, API schemas, and network topologies for my projects.
 
 ---
 
-## 0x03 | Cybersecurity Research
+## 0x03 | Research & Core Focus Domains
 
 My projects and academic study focus on the following domains:
 
-*   **Digital Forensics & Incident Response (DFIR)**: Low-level file system structure analysis (NTFS metadata, $MFT records), file carving techniques, and scripting Wireshark/PCAP data extraction.
+*   **Digital Forensics & Incident Response (DFIR)**: Low-level file system structure analysis (NTFS metadata, `$MFT` records), file carving techniques, and scripting Wireshark/PCAP data extraction.
 *   **Secure Web Architecture**: Enforcing input boundary sanitization (using strict Zod schemas), mitigating OWASP Top 10 vulnerabilities, and securing API routers with stateless JWT signatures and database Row-Level Security (RLS).
 *   **Network Diagnostics**: Socket-level programming in Python/Go, banner-grabbing heuristics, and automating preflight routing verifications.
 *   **Systems Hardening**: Configuring isolated container runtimes with Docker multi-stage builds and applying least-privilege configurations to cloud identity systems (AWS IAM).
@@ -49,59 +53,36 @@ My projects and academic study focus on the following domains:
 ## 0x04 | Technical Stack
 
 ### Core Languages
-`Python` • `Go (Golang)` • `C++` • `C` • `TypeScript` • `JavaScript (ES6+)` • `Bash / Shell`
+`Python 3.12+` • `Go (Golang)` • `C++` • `TypeScript` • `JavaScript (ES6+)` • `Bash / Shell`
+
+### Security & Forensics
+`Playwright` • `OWASP ZAP API` • `Reflected XSS Verification` • `NTFS Binary Parsing` • `PyYAML Plugin Engines` • `Wireshark / TShark` • `Nmap` • `Burp Suite` • `Socket Programming`
 
 ### Backend & Databases
 `Node.js` • `Express.js` • `PostgreSQL` • `Redis` • `Supabase` • `MongoDB` • `MySQL` • `SQLite`
 
 ### Cloud & DevOps
-`Docker` • `AWS (Foundational Security & IAM)` • `Git & GitHub Actions` • `Netlify API`
-
-### Diagnostics & Forensics
-`Linux / Unix Systems` • `Wireshark / TShark` • `Nmap` • `Burp Suite` • `Socket Programming` • `VirtualBox`
+`Docker & Compose` • `AWS (Foundational IAM)` • `Git & GitHub Actions` • `pytest-cov` • `Mypy / Ruff`
 
 ---
 
-## 0x05 | Telemetry Dashboard
+## 0x05 | Active Work Matrix
 
-
-
-<div align="center">
-
-<!-- Daily contribution activity graph -->
-[![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=beast6713&bg_color=0D1117&color=00F0FF&line=00F0FF&point=C9D1D9&area=true&hide_border=true)](https://github.com/beast6713)
-
-</div>
-
-
-
----
-
-## 0x06 | Active Work Matrix
-
+*   **Released**: **HTTP Security Assessment Framework (v2.0.0)** — Complete 10-phase production release with 92.24% test coverage and OWASP ZAP cross-validation.
 *   **Building**: Upgrading [IP-Sentinel](https://github.com/beast6713/IP-Sentinel)'s parallel collection engine to support rate-limited threat intel providers.
 *   **Learning**: Deepening my understanding of Linux Kernel internals, virtual memory architectures, and container namespaces.
-*   **Exploring**: Studying network traffic analysis patterns in raw PCAP files to automate threat signature mapping.
 *   **Researching**: Practical mitigation patterns for Server-Side Request Forgery (SSRF) in distributed microservice routing architectures.
 
 ---
 
-## 0x07 | Open Source & Collaboration
+## 0x06 | Contact & Verification
 
-I believe that open-source software is critical for establishing a secure public digital infrastructure. I am interested in collaborating on:
-1.  **Defensive Tooling**: Automation scripts, parsing libraries, and network scanners built in Python, Go, or C++.
-2.  **Architectural Blueprinting**: Writing documentation and designing clean, reproducible project layouts.
-3.  **AppSec Auditing**: Reviewing application codebases for proper input validation and boundary protections.
-
----
-
-## 0x08 | Contact & Verification
-
-If you are looking for an application security or software engineering intern, or want to collaborate on security projects:
+If you are looking for an application security, cybersecurity, or software engineering intern, or want to collaborate on security projects:
 
 *   **Email**: [kunjeyanhitesh13@gmail.com](mailto:kunjeyanhitesh13@gmail.com)
 *   **LinkedIn**: [linkedin.com/in/hiteshyadav6713](https://www.linkedin.com/in/hiteshyadav6713)
 *   **GitHub**: [github.com/beast6713](https://github.com/beast6713)
+*   **Interactive Resume**: [RESUME_PORTFOLIO_THEME.html](RESUME_PORTFOLIO_THEME.html)
 
 ---
 
@@ -113,7 +94,7 @@ If you are looking for an application security or software engineering intern, o
 ==================================================================================================
 ```
 
-<sub>Designed and verified by <b>Hitesh Yadav</b>. Built with clean code and systems precision.</sub><br />
+<sub>Designed and verified by <b>Hitesh Yadav</b>. Built with clean code, dark castle aesthetics, and systems precision.</sub><br />
 <sub>© 2026 Hitesh Yadav. All rights reserved.</sub>
 
 </div>
