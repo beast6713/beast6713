@@ -80,7 +80,7 @@ My projects and academic study focus on the following domains:
 If you are looking for an application security, cybersecurity, or software engineering intern, or want to collaborate on security projects:
 
 *   **Email**: [kunjeyanhitesh13@gmail.com](mailto:kunjeyanhitesh13@gmail.com)
-*   **LinkedIn**: [linkedin.com/in/hiteshyadav6713](https://www.linkedin.com/in/hiteshyadav6713)
+*   **LinkedIn**: [linkedin.com/in/hiteshy13](https://www.linkedin.com/in/hiteshy13/)
 *   **GitHub**: [github.com/beast6713](https://github.com/beast6713)
 *   **Interactive Resume**: [RESUME_PORTFOLIO_THEME.html](RESUME_PORTFOLIO_THEME.html)
 

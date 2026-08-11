@@ -1,6 +1,6 @@
 # HITESH YADAV
 **Delhi, India | +91 81681 48782 | kunjeyanhitesh13@gmail.com**  
-**LinkedIn:** [linkedin.com/in/hiteshyadav6713](https://www.linkedin.com/in/hiteshyadav6713) | **GitHub:** [github.com/beast6713](https://github.com/beast6713)  
+**LinkedIn:** [linkedin.com/in/hiteshy13](https://www.linkedin.com/in/hiteshy13/) | **GitHub:** [github.com/beast6713](https://github.com/beast6713)  
 **Portfolio:** [hitesh-portfolio-beast6713s-projects.vercel.app](https://hitesh-portfolio-beast6713s-projects.vercel.app)
 
 ---
