@@ -1,70 +1,96 @@
-# HITESH YADAV
-**Delhi, India | +91 81681 48782 | kunjeyanhitesh13@gmail.com**  
-**LinkedIn:** [linkedin.com/in/hiteshy13](https://www.linkedin.com/in/hiteshy13/) | **GitHub:** [github.com/beast6713](https://github.com/beast6713)  
-**Portfolio:** [hitesh-portfolio-beast6713s-projects.vercel.app](https://hitesh-portfolio-beast6713s-projects.vercel.app)
+HITESH YADAV
+Cybersecurity | Cloud & IT Infrastructure | Software Engineering
 
----
+Delhi, India | +91 81681 48782 | kunjeyanhitesh13@gmail.com
+LinkedIn: linkedin.com/in/hiteshy13 | GitHub: github.com/beast6713 | Portfolio: hitesh-portfolio-beast6713s-projects.vercel.app
 
-## PROFESSIONAL SUMMARY
-B.Tech Computer Science Engineering student specializing in Cybersecurity with academic distinction (9.52/10 GPA). Technical foundation in secure software engineering, network diagnostics, Linux system internals, and concurrent backend routing. Experienced in building CLI vulnerability validators, low-level disk parsers, and custom multi-threaded scanners. Seeking an entry-level Cloud, Security, Support, or Systems Engineer role at Tech Mahindra.
 
----
+PROFESSIONAL SUMMARY
+────────────────────────────────────────────────────────
 
-## EDUCATION
-**SRM Institute of Science & Technology (SRM IST)**, Chennai, TN  
-*Bachelor of Technology (B.Tech) in CSE (Specialization in Cybersecurity)*  
-**Expected Graduation:** May 2028 | **CGPA:** 9.52 / 10.0 (Outstanding academic track)  
-*Relevant Coursework:* Network Security, Operating Systems, Relational Databases, Digital Forensics & Incident Response, Web Architecture & SSDLC, Data Structures & Algorithms.
+B.Tech CSE student specializing in Cybersecurity with a 9.52/10 CGPA and hands-on experience building security assessment, network analysis, threat intelligence, digital forensics, and backend systems. Skilled in Python, Go, Linux, Networking, SQL, and Cloud/DevOps tools. Seeking an entry-level role in cybersecurity, cloud/infrastructure, technical support, or IT engineering.
 
----
 
-## TECHNICAL SKILLS
-*   **Programming:** Python 3.12+, Go (Golang), C++, TypeScript, JavaScript (ES6+), Bash/Shell
-*   **Cybersecurity & Auditing:** NTFS Binary Carving, Wireshark/TShark Packet Inspection, Nmap Port Auditing, Burp Suite Web Auditing, OWASP ZAP API, JWT Rotation, RBAC
-*   **Networking & Systems:** TCP/UDP Socket Programming, System Log Analysis, Troubleshooting, Linux System Administration, DNS, DHCP, HTTP/HTTPS
-*   **Cloud & Infrastructure:** Docker, Docker Compose, GitHub Actions (CI/CD), AWS IAM Basics
-*   **Databases:** PostgreSQL, Redis, MongoDB, MySQL, SQLite
+TECHNICAL SKILLS
+────────────────────────────────────────────────────────
 
----
+Programming:
+Python | Go | C++ | JavaScript/TypeScript | Bash
 
-## FEATURED PROJECTS
+Cybersecurity:
+Vulnerability Assessment | Web Security | Network Security | Digital Forensics | Threat Intelligence | Security Automation
 
-### 1. HTTP Security Assessment Framework (v2.0.0)
-*Python, Playwright, OWASP ZAP, Pytest*
-*   **Architecture & Quality:** Designed a unified Single Source of Truth architecture (`AssessmentResult`) achieving **92.24% line coverage** across 130 unit tests with strict `mypy` typing and zero static lint errors (`ruff`).
-*   **Multi-Engine Pipeline:** Engineered a crawler engine, AST security header validator (HSTS/CSP/XFO/XCTO), passive TLS/cookie analyzer, and weighted risk scoring engine.
-*   **Browser & ZAP Integration:** Programmed Playwright headless browser checks for DOM element verification and integrated the OWASP ZAP API for findings cross-validation.
-*   **Active Verification & Safety:** Programmed safe Reflected XSS parameter verification with rate limiting and custom `SafetyPolicy` safeguards.
+Networking & Systems:
+TCP/IP | DNS | DHCP | HTTP/HTTPS | IPv4/IPv6 | Linux | Windows | System Troubleshooting
 
-### 2. IP-Sentinel (IP Intelligence Platform)
-*Go (Golang), Next.js, Redis, PostgreSQL, Docker*
-*   **Clean Backend:** Architected a high-concurrency threat investigation engine in Go (Golang) using Clean Architecture to decouple core domain logic from provider adapters.
-*   **Parallel Investigation Engine:** Developed concurrent workers using goroutines to query and normalize IP intelligence from multiple APIs (WHOIS, RDAP, DNS) simultaneously.
-*   **Caching & Analytics:** Configured a Redis caching tier to bypass redundant external requests, achieving sub-millisecond threat audit resolution.
-*   **SOC Dashboard:** Developed a Next.js (App Router) operational dashboard with dynamic threat visualizations, geolocation origins, and offending ASN metrics.
+Cloud & DevOps:
+Docker | Docker Compose | GitHub Actions | AWS IAM | CI/CD | Git/GitHub
 
-### 3. PortFootprint Scanner
-*Python, Socket API, Threading, JSON/CSV Reporting*
-*   **High-Concurrency Scanner:** Developed a multi-threaded TCP connect scan engine in Python using `ThreadPoolExecutor`, reducing scan latency by **60%+** across targeted ports.
-*   **Service Fingerprinting:** Designed a priority-based registry pattern to match socket welcome strings and run custom ASCII protocol checks (HTTP, SSH, FTP, SMTP).
-*   **Structured Reporting:** Programmed an export registry supporting structured JSON logs, flat CSV spreadsheets, and a responsive HTML/CSS report dashboard.
+Databases & Development:
+PostgreSQL | Redis | MySQL | MongoDB | REST APIs | Node.js | Next.js
 
-### 4. NTFS Forensic Artifact Carving Tool
-*Python, Binary Carving, NTFS Internals*
-*   **Low-Level Parsing:** Built a low-level forensic tool in Python that directly scans raw disk images by bypassing standard OS file system APIs.
-*   **Metadata Extraction:** Parsed NTFS Master File Table (MFT) raw sectors, runlist data structures, and signatures to carve and rebuild deleted file records.
-*   **Evidence Integrity:** Integrated SHA-256 and MD5 hashing algorithms to compute file signatures, guaranteeing forensic integrity.
+Security & Development Tools:
+Nmap | Wireshark | OWASP ZAP | Burp Suite | Playwright | Git/GitHub
 
----
 
-## CERTIFICATIONS
-*   **Cybersecurity Specialization Track** | SRM Institute of Science & Technology | 2026
-*   **Enterprise Clean Architecture & DDD** | Independent Software Review Board | 2026
-*   **DevOps & CI/CD Pipeline Engineering** | Open Source Community | 2026
+SELECTED PROJECTS
+────────────────────────────────────────────────────────
 
----
+HTTP Security Assessment Framework | Python 3.12+, Playwright, OWASP ZAP, Pytest
+https://github.com/beast6713/http-security-framework
 
-## HONORS & ACHIEVEMENTS
-*   **3rd Place:** Capture The Flag (CTF) Cyber Security Competition, SRM IST (2025)
-*   **Participant:** Smart India Hackathon (SIH) 2025 (Developed secure backend prototype)
-*   **Participant:** VITAP Hackathon Competition 2026
+• Engineered an automated 10-phase security assessment CLI engine using Python, focusing on AST security header parsing, passive TLS/cookie audits, and weighted risk scoring.
+
+• Implemented Playwright headless browser DOM checks, AST header rules (HSTS/CSP/XFO/XCTO), and OWASP ZAP REST API integration for alert cross-validation.
+
+• Programmed safe Reflected XSS parameter verification using rate limiting and custom SafetyPolicy request safeguards, achieving 92.24% test coverage across 130 unit tests.
+
+
+IP-Sentinel Threat Platform | Go (Golang), Next.js 14, Redis, PostgreSQL, Docker
+https://github.com/beast6713/IP-Sentinel
+
+• Architected a high-concurrency threat correlation engine in Go using Clean Architecture to decouple core domain logic from external provider adapters.
+
+• Implemented concurrent Goroutine collection workers to query, parse, and normalize WHOIS, RDAP, DNS, and threat intelligence metadata.
+
+• Integrated a Redis caching layer to bypass redundant external API requests, resulting in sub-millisecond cached threat audit response times.
+
+
+PortFootprint Network Scanner | Python 3.12+, Socket API, ThreadPoolExecutor
+https://github.com/beast6713/PortFootprint
+
+• Developed a multi-threaded TCP network diagnostic CLI tool using Python and socket programming.
+
+• Implemented a priority-based banner-grabbing registry pattern to match socket welcome strings across HTTP, SSH, FTP, and SMTP services.
+
+• Achieved 60%+ scan latency reduction across targeted port ranges and exported structured JSON logs, CSV spreadsheets, and interactive HTML dashboards.
+
+
+NTFS Forensic Artifact Carving Tool | Python 3.12+, NTFS Binary Carving, Cryptography
+https://github.com/beast6713/digital-forensics
+
+• Built a low-level digital forensics tool in Python that scans raw disk images by directly bypassing standard operating system file system APIs.
+
+• Implemented raw NTFS Master File Table (MFT) sector parsing, runlist decoding, and file magic number signature carving algorithms.
+
+• Verified evidence integrity by computing SHA-256 and MD5 cryptographic hashes for carved files to maintain forensic chain of custody.
+
+
+EDUCATION
+────────────────────────────────────────────────────────
+
+B.Tech — Computer Science Engineering (Cybersecurity)
+SRM Institute of Science & Technology (SRM IST), Chennai, TN
+Expected Graduation: May 2028 | CGPA: 9.52/10
+
+Relevant Coursework:
+Operating Systems | Computer Networks | DBMS | Digital Forensics | Data Structures & Algorithms
+
+
+ACHIEVEMENTS
+────────────────────────────────────────────────────────
+
+• 3rd Place — Capture The Flag (CTF) Cyber Security Competition, SRM IST (2025)
+• Participant — Smart India Hackathon (SIH) 2025 (Engineered secure prototype)
+• Participant — VITAP Hackathon Competition 2026
+• Academic Distinction — Maintained a 9.52/10 CGPA in B.Tech Cybersecurity at SRM IST
