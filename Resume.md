@@ -8,89 +8,84 @@ LinkedIn: linkedin.com/in/hiteshy13 | GitHub: github.com/beast6713 | Portfolio: 
 PROFESSIONAL SUMMARY
 ────────────────────────────────────────────────────────
 
-B.Tech CSE student specializing in Cybersecurity with a 9.52/10 CGPA and hands-on experience building security assessment, network analysis, threat intelligence, digital forensics, and backend systems. Skilled in Python, Go, Linux, Networking, SQL, and Cloud/DevOps tools. Seeking an entry-level role in cybersecurity, cloud/infrastructure, technical support, or IT engineering.
+Detail-oriented CSE student specializing in Cybersecurity and Full-Stack Development. Proficient in building high-performance, secure software engines, digital forensics utilities, and modular web applications.
 
 
 TECHNICAL SKILLS
 ────────────────────────────────────────────────────────
 
-Programming:
-Python | Go | C++ | JavaScript/TypeScript | Bash
+Languages:
+Python, Go, C++, TypeScript, JavaScript, HTML5/CSS3, Bash
 
-Cybersecurity:
-Vulnerability Assessment | Web Security | Network Security | Digital Forensics | Threat Intelligence | Security Automation
+Frameworks:
+React.js, Next.js, Node.js, Express.js, Flutter
 
-Networking & Systems:
-TCP/IP | DNS | DHCP | HTTP/HTTPS | IPv4/IPv6 | Linux | Windows | System Troubleshooting
+Database & Cache:
+PostgreSQL, Redis, MongoDB, MySQL, Supabase, SQLite
 
-Cloud & DevOps:
-Docker | Docker Compose | GitHub Actions | AWS IAM | CI/CD | Git/GitHub
+Tools/Platforms:
+Git, GitHub, Docker, Docker Compose, Linux, AWS, Postman
 
-Databases & Development:
-PostgreSQL | Redis | MySQL | MongoDB | REST APIs | Node.js | Next.js
-
-Security & Development Tools:
-Nmap | Wireshark | OWASP ZAP | Burp Suite | Playwright | Git/GitHub
+Security & Forensics:
+Digital Forensics, NTFS Analysis, Wireshark, Port Scanning, OWASP Top 10
 
 
 SELECTED PROJECTS
 ────────────────────────────────────────────────────────
 
-HTTP Security Assessment Framework | Python 3.12+, Playwright, OWASP ZAP, Pytest
-https://github.com/beast6713/http-security-framework
+1. [PortFootprint – Concurrency TCP Port Scanner & Fingerprinter](https://github.com/beast6713/PortFootprint)
+• Programmed a multi-threaded Python TCP scanner reducing scan latency by 60%+ with structured JSON/CSV/HTML reporting.
+Tech Stack: Python, Socket Programming, Multithreading, JSON/CSV/HTML.
 
-• Engineered an automated 10-phase security assessment CLI engine using Python, focusing on AST security header parsing, passive TLS/cookie audits, and weighted risk scoring.
+2. [IP-Sentinel (IP Intelligence Platform)](https://github.com/beast6713/IP-Sentinel)
+• Built a high-performance Go backend with concurrent API workers and Redis caching for real-time threat intelligence.
+Tech Stack: Go, Next.js, TypeScript, Redis, PostgreSQL, Docker, Tailwind CSS.
 
-• Implemented Playwright headless browser DOM checks, AST header rules (HSTS/CSP/XFO/XCTO), and OWASP ZAP REST API integration for alert cross-validation.
+3. [HTTP Security Assessment Framework (v2.0.0)](https://github.com/beast6713/http-security-framework)
+• Engineered a 10-phase CLI security engine with Playwright browser checks, safety policy rules, and OWASP ZAP API integration.
+Tech Stack: Python 3.12+, Playwright, OWASP ZAP, Pytest, Rich CLI.
 
-• Programmed safe Reflected XSS parameter verification using rate limiting and custom SafetyPolicy request safeguards, achieving 92.24% test coverage across 130 unit tests.
+4. [NTFS Forensic Recovery Tool](https://github.com/beast6713/digital-forensics)
+• Programmed a standalone Python parsing tool to directly scan raw disk MFT records and carve deleted file runs.
+Tech Stack: Python, Digital Forensics, Binary Parsing, NTFS Internals.
 
+5. [Velocity Builder – Website Builder](https://github.com/beast6713/velocity-builder)
+• Built a React layout engine featuring state history tracking (Undo/Redo) and Netlify API for instant page publishing.
+Tech Stack: React.js, Vite, Tailwind CSS, Netlify API, DnD Kit.
 
-IP-Sentinel Threat Platform | Go (Golang), Next.js 14, Redis, PostgreSQL, Docker
-https://github.com/beast6713/IP-Sentinel
+6. [Royal Stitch Market – Multi-Vendor Marketplace](https://github.com/beast6713/royal-stitch-marketplace)
+• Designed a Supabase marketplace with secure Clerk role authorization (Customer vs Tailor) and Zod input sanitization.
+Tech Stack: Next.js, TypeScript, Supabase, PostgreSQL, Clerk, Cloudinary.
 
-• Architected a high-concurrency threat correlation engine in Go using Clean Architecture to decouple core domain logic from external provider adapters.
-
-• Implemented concurrent Goroutine collection workers to query, parse, and normalize WHOIS, RDAP, DNS, and threat intelligence metadata.
-
-• Integrated a Redis caching layer to bypass redundant external API requests, resulting in sub-millisecond cached threat audit response times.
-
-
-PortFootprint Network Scanner | Python 3.12+, Socket API, ThreadPoolExecutor
-https://github.com/beast6713/PortFootprint
-
-• Developed a multi-threaded TCP network diagnostic CLI tool using Python and socket programming.
-
-• Implemented a priority-based banner-grabbing registry pattern to match socket welcome strings across HTTP, SSH, FTP, and SMTP services.
-
-• Achieved 60%+ scan latency reduction across targeted port ranges and exported structured JSON logs, CSV spreadsheets, and interactive HTML dashboards.
+7. [VulnReconX – Cybersecurity Scanning Framework](https://github.com/beast6713/VulnReconX)
+• Engineered a modular scan framework separating scanner orchestrators from plugins via SOLID design and YAML registries.
+Tech Stack: Python, Pytest, PyYAML, SOLID Principles, CLI Routing.
 
 
-NTFS Forensic Artifact Carving Tool | Python 3.12+, NTFS Binary Carving, Cryptography
-https://github.com/beast6713/digital-forensics
+TECHNICAL HIGHLIGHTS
+────────────────────────────────────────────────────────
 
-• Built a low-level digital forensics tool in Python that scans raw disk images by directly bypassing standard operating system file system APIs.
+Cybersecurity & Secure Systems:
+• Proficient in Clean Architecture and Secure Software Development Lifecycle (SSDLC) patterns.
+• Experienced in network diagnostics, packet auditing (Wireshark/TShark), and custom socket scanner engineering.
 
-• Implemented raw NTFS Master File Table (MFT) sector parsing, runlist decoding, and file magic number signature carving algorithms.
-
-• Verified evidence integrity by computing SHA-256 and MD5 cryptographic hashes for carved files to maintain forensic chain of custody.
+Full-Stack & Concurrency:
+• Skilled in multi-threaded programming, asynchronous workflows, and Redis cache optimization layers.
+• Adept at implementing secure Clerk/Supabase user authentication and role-based access control (RBAC).
 
 
 EDUCATION
 ────────────────────────────────────────────────────────
 
-B.Tech — Computer Science Engineering (Cybersecurity)
-SRM Institute of Science & Technology (SRM IST), Chennai, TN
-Expected Graduation: May 2028 | CGPA: 9.52/10
-
-Relevant Coursework:
-Operating Systems | Computer Networks | DBMS | Digital Forensics | Data Structures & Algorithms
+SRM IST, Chennai, TN
+B.Tech CSE (Cybersecurity)
+GPA: 9.52/10 | Expected: May 2028
+Coursework: Network Security, OS Kernel Internals, DSA, OOP, PostgreSQL, Digital Forensics, Web Architecture.
 
 
 ACHIEVEMENTS
 ────────────────────────────────────────────────────────
 
-• 3rd Place — Capture The Flag (CTF) Cyber Security Competition, SRM IST (2025)
-• Participant — Smart India Hackathon (SIH) 2025 (Engineered secure prototype)
-• Participant — VITAP Hackathon Competition 2026
-• Academic Distinction — Maintained a 9.52/10 CGPA in B.Tech Cybersecurity at SRM IST
+• 3rd Place: Capture The Flag (CTF) Cyber Security, SRM IST
+• Participant: Smart India Hackathon (SIH) 2025
+• Participant: VITAP Hackathon 2026
