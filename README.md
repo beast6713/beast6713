@@ -9,7 +9,7 @@
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=16&pause=1000&color=DC2626&center=true&vCenter=true&width=750&lines=Zero-Trust+Engineering+%7C+Securing+Software+at+the+Design+Layer;Building+Concurrent+Network+Scanners+%26+Security+Engines;Architecting+10-Phase+Security+Frameworks+in+Python+%26+Go)](https://git.io/typing-svg)
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-00F0FF?style=flat-square&logo=linkedin&logoColor=0B0F19&labelColor=0B0F19)](https://www.linkedin.com/in/hiteshy13/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-00F0FF?style=flat-square&logo=linkedin&logoColor=0B0F19&labelColor=0B0F19)](https://www.linkedin.com/in/hiteshyadav6713/)
 [![Email](https://img.shields.io/badge/Email-00F0FF?style=flat-square&logo=gmail&logoColor=0B0F19&labelColor=0B0F19)](mailto:kunjeyanhitesh13@gmail.com)
 [![Portfolio](https://img.shields.io/badge/Portfolio-00F0FF?style=flat-square&logo=react&logoColor=0B0F19&labelColor=0B0F19)](https://hitesh-portfolio-beast6713s-projects.vercel.app)
 [![Resume](https://img.shields.io/badge/Resume-00F0FF?style=flat-square&logo=adobeacrobatreader&logoColor=0B0F19&labelColor=0B0F19)](Resume.pdf)
@@ -79,7 +79,7 @@ My projects and academic study focus on the following domains:
 If you are looking for an application security, cybersecurity, or software engineering intern, or want to collaborate on security projects:
 
 *   **Email**: [kunjeyanhitesh13@gmail.com](mailto:kunjeyanhitesh13@gmail.com)
-*   **LinkedIn**: [linkedin.com/in/hiteshy13](https://www.linkedin.com/in/hiteshy13/)
+*   **LinkedIn**: [linkedin.com/in/hiteshyadav6713](https://www.linkedin.com/in/hiteshyadav6713/)
 *   **GitHub**: [github.com/beast6713](https://github.com/beast6713)
 *   **Resume**: [Resume.pdf](Resume.pdf) | [Resume.md](Resume.md)
 

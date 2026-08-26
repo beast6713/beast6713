@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hitesh Yadav - Resume</title>
+  <style>
+    @page {
+      size: A4 portrait;
+      margin: 6mm 9mm 6mm 9mm;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      color: #111111;
+      background-color: #ffffff;
+      line-height: 1.25;
+      font-size: 8.5pt;
+      width: 100%;
+      margin: 0 auto;
+      padding: 4mm 6mm;
+    }
+
+    /* Header */
+    header {
+      text-align: center;
+      margin-bottom: 7px;
+    }
+
+    .name {
+      font-size: 21pt;
+      font-weight: 700;
+      color: #1e4b7a;
+      letter-spacing: 0.1px;
+      margin-bottom: 3px;
+    }
+
+    .contact-info {
+      font-size: 8.2pt;
+      color: #222222;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 5px;
+    }
+
+    .contact-info a {
+      color: #1e4b7a;
+      text-decoration: none;
+    }
+
+    .contact-info a:hover {
+      text-decoration: underline;
+    }
+
+    .separator {
+      color: #888888;
+      font-weight: 300;
+    }
+
+    /* Section Styles */
+    section {
+      margin-bottom: 7px;
+    }
+
+    .section-title {
+      font-size: 9.2pt;
+      font-weight: 700;
+      color: #1a1a1a;
+      text-transform: uppercase;
+      letter-spacing: 0.6px;
+      border-bottom: 1.5px solid #1e4b7a;
+      padding-bottom: 1px;
+      margin-bottom: 4px;
+    }
+
+    /* Academic Details */
+    .education-item {
+      margin-bottom: 2px;
+    }
+
+    .flex-row {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+    }
+
+    .institution {
+      font-weight: 700;
+      color: #000000;
+    }
+
+    .degree {
+      font-weight: 600;
+      color: #333333;
+    }
+
+    .location-date {
+      font-size: 8.2pt;
+      color: #444444;
+      text-align: right;
+    }
+
+    .sub-details {
+      font-size: 8.2pt;
+      color: #333333;
+    }
+
+    .cgpa {
+      font-weight: 700;
+      color: #000000;
+    }
+
+    /* Skills Section */
+    .skills-grid {
+      display: flex;
+      flex-direction: column;
+      gap: 2px;
+      font-size: 8.3pt;
+    }
+
+    .skill-category {
+      line-height: 1.25;
+    }
+
+    .skill-name {
+      font-weight: 700;
+      color: #1a1a1a;
+    }
+
+    /* Projects Section */
+    .project-item {
+      margin-bottom: 5px;
+      padding-bottom: 4px;
+      border-bottom: 1px dashed #e2e8f0;
+    }
+
+    .project-item:last-child {
+      border-bottom: none;
+      margin-bottom: 0;
+      padding-bottom: 0;
+    }
+
+    .project-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      margin-bottom: 1px;
+    }
+
+    .project-title {
+      font-weight: 700;
+      color: #000000;
+    }
+
+    .project-tagline {
+      font-weight: 500;
+      color: #444444;
+    }
+
+    ul.bullet-list {
+      list-style-type: disc;
+      padding-left: 14px;
+      margin-bottom: 1px;
+    }
+
+    ul.bullet-list li {
+      margin-bottom: 1px;
+      color: #222222;
+      font-size: 8.2pt;
+      line-height: 1.25;
+    }
+
+    .tech-stack {
+      font-size: 8pt;
+      color: #333333;
+      margin-top: 1px;
+    }
+
+    .tech-label {
+      font-weight: 700;
+      color: #1a1a1a;
+    }
+
+    /* Leadership & Experience */
+    .experience-item {
+      margin-bottom: 4px;
+    }
+
+    .role-title {
+      font-weight: 700;
+      color: #000000;
+    }
+
+    .organization {
+      font-weight: 600;
+      color: #333333;
+    }
+
+    .tagline-banner {
+      text-align: center;
+      font-style: italic;
+      color: #444444;
+      font-size: 8.3pt;
+      margin: 4px 0 2px 0;
+    }
+
+    /* Honors & Awards */
+    .award-item {
+      font-size: 8.2pt;
+      margin-bottom: 1.5px;
+      color: #222222;
+    }
+
+    .award-title {
+      font-weight: 700;
+      color: #1a1a1a;
+    }
+
+    /* Bottom Summary */
+    .bottom-summary {
+      font-size: 8pt;
+      color: #1d6fa5;
+      line-height: 1.25;
+      margin-top: 5px;
+      padding-top: 3px;
+    }
+
+    @media print {
+      body {
+        width: 100%;
+        height: 100%;
+        padding: 0;
+        margin: 0;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header>
+    <div class="name">Hitesh Yadav</div>
+    <div class="contact-info">
+      <span>Delhi, India</span>
+      <span class="separator">|</span>
+      <span>📧 <a href="mailto:kunjeyanhitesh13@gmail.com">kunjeyanhitesh13@gmail.com</a></span>
+      <span class="separator">|</span>
+      <span>📱 +91 81681 48782</span>
+      <span class="separator">|</span>
+      <span>🔗 <a href="https://www.linkedin.com/in/hiteshyadav6713/" target="_blank">LinkedIn</a></span>
+      <span class="separator">|</span>
+      <span>🐙 <a href="https://github.com/beast6713" target="_blank">GitHub (beast6713)</a></span>
+      <span class="separator">|</span>
+      <span>🌐 <a href="https://hitesh-portfolio-beast6713s-projects.vercel.app" target="_blank">Portfolio</a></span>
+    </div>
+  </header>
+
+  <!-- ACADEMIC DETAILS -->
+  <section>
+    <div class="section-title">Academic Details</div>
+    <div class="education-item">
+      <div class="flex-row">
+        <div>
+          <span class="institution">SRM Institute of Science and Technology (SRMIST)</span>
+          &nbsp;&nbsp;<span class="degree">Bachelor of Technology</span>
+        </div>
+        <div class="location-date">Chennai, Tamil Nadu | 08/2024 – Present</div>
+      </div>
+      <div class="flex-row sub-details" style="margin-top: 1px;">
+        <div>Computer Science & Engineering (Expected Graduation: May 2028)</div>
+        <div>| &nbsp;<span class="cgpa">CGPA: 9.52 / 10.0</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section>
+    <div class="section-title">Skills</div>
+    <div class="skills-grid">
+      <div class="skill-category">
+        <span class="skill-name">Programming Languages:</span> Python 3.12+, Go (Golang), C++, TypeScript, JavaScript, SQL, HTML5/CSS3, Bash
+      </div>
+      <div class="skill-category">
+        <span class="skill-name">Frameworks & Tools:</span> Next.js 15, React 19, Node.js, Express, Tailwind CSS, Playwright, OWASP ZAP API, Git, Docker, AWS
+      </div>
+      <div class="skill-category">
+        <span class="skill-name">Databases & Caching:</span> PostgreSQL, Redis, Supabase DB, MongoDB, MySQL, SQLite
+      </div>
+      <div class="skill-category">
+        <span class="skill-name">Core CS & Security:</span> REST APIs, Systems Architecture, AppSec, Digital Forensics, Network Diagnostics, Socket Programming, DSA, OS
+      </div>
+      <div class="skill-category">
+        <span class="skill-name">Languages:</span> English, Hindi &nbsp;|&nbsp; <span class="skill-name">Creative Skills:</span> Technical Writing, SSDLC, System Architecture, Problem Solving
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS / OPEN SOURCE -->
+  <section>
+    <div class="section-title">Projects / Open Source</div>
+
+    <!-- Project 1 -->
+    <div class="project-item">
+      <div class="project-header">
+        <div>
+          <span class="project-title">1. HTTP Security Assessment Framework (v2.0.0)</span> – <span class="project-tagline">Production Web Security Assessment Engine</span>
+        </div>
+      </div>
+      <ul class="bullet-list">
+        <li>Architected an enterprise-grade 10-phase CLI web security assessment and cross-validation engine in Python 3.12+.</li>
+        <li>Implemented Single Source of Truth architecture with Playwright headless browser engine for real-time DOM CSP enforcement verification.</li>
+        <li>Connected OWASP ZAP REST API engine for cross-validation; achieved 92.24% test coverage across 130 unit tests with sub-second execution.</li>
+      </ul>
+      <div class="tech-stack">
+        <span class="tech-label">Tech:</span> Python 3.12+, Playwright, OWASP ZAP API, Pytest, Rich CLI, Clean Architecture
+      </div>
+    </div>
+
+    <!-- Project 2 -->
+    <div class="project-item">
+      <div class="project-header">
+        <div>
+          <span class="project-title">2. Royal Stitch Market</span> – <span class="project-tagline">Multi-Vendor Web Marketplace Engine</span>
+        </div>
+      </div>
+      <ul class="bullet-list">
+        <li>Architected a modern e-commerce web marketplace providing independent tailors and sellers with real-time inventory and custom order workflows.</li>
+        <li>Implemented secure Clerk role-based access control (Tailors, Customers, Admins) and Row-Level Security (RLS) in Supabase PostgreSQL.</li>
+        <li>Engineered strict Zod input schema validation and Cloudinary media pipelines with optimistic UI state updates.</li>
+      </ul>
+      <div class="tech-stack">
+        <span class="tech-label">Tech:</span> Next.js 15, TypeScript, Supabase, PostgreSQL, Clerk, Tailwind CSS, Cloudinary
+      </div>
+    </div>
+
+    <!-- Project 3 -->
+    <div class="project-item">
+      <div class="project-header">
+        <div>
+          <span class="project-title">3. PortFootprint</span> – <span class="project-tagline">Multi-Threaded TCP Port Scanner & Service Fingerprinter</span>
+        </div>
+      </div>
+      <ul class="bullet-list">
+        <li>Programmed a multi-threaded Python TCP scanner reducing scan latency by 60%+ using ThreadPoolExecutor socket workers.</li>
+        <li>Developed priority protocol fingerprinting probes across HTTP, SSH, FTP, and SMTP services with structured JSON/CSV/HTML reporting.</li>
+      </ul>
+      <div class="tech-stack">
+        <span class="tech-label">Tech:</span> Python, Socket Programming, Multithreading, Network Security, JSON/CSV/HTML
+      </div>
+    </div>
+
+    <!-- Project 4 -->
+    <div class="project-item">
+      <div class="project-header">
+        <div>
+          <span class="project-title">4. NTFS Forensic Recovery Tool</span> – <span class="project-tagline">Low-Level Disk Artifact Carving Engine</span>
+        </div>
+      </div>
+      <ul class="bullet-list">
+        <li>Programmed a standalone digital forensics parsing engine to directly inspect raw disk Master File Table ($MFT) records and runlists.</li>
+        <li>Carved deleted file runs and magic number signatures with SHA-256 cryptographic integrity verification without external dependencies.</li>
+      </ul>
+      <div class="tech-stack">
+        <span class="tech-label">Tech:</span> Python, Digital Forensics, Binary Parsing, NTFS Internals, File Systems
+      </div>
+    </div>
+
+    <!-- Project 5 -->
+    <div class="project-item">
+      <div class="project-header">
+        <div>
+          <span class="project-title">5. Velocity Builder</span> – <span class="project-tagline">Modular Layout Engine & Instant Web Publisher</span>
+        </div>
+      </div>
+      <ul class="bullet-list">
+        <li>Built a React layout engine featuring state history tracking (Undo/Redo) and Netlify API integration for instant page deployment.</li>
+      </ul>
+      <div class="tech-stack">
+        <span class="tech-label">Tech:</span> React.js, Vite, Tailwind CSS, Netlify API, DnD Kit
+      </div>
+    </div>
+  </section>
+
+  <!-- LEADERSHIP & EXPERIENCE -->
+  <section>
+    <div class="section-title">Leadership & Experience</div>
+
+    <div class="experience-item">
+      <div class="flex-row">
+        <div>
+          <span class="role-title">Open Source Security Contributor</span> <span class="organization">| Security Research & Systems Engineering</span>
+        </div>
+        <div class="location-date">Chennai, Tamil Nadu | 2024 – Present</div>
+      </div>
+      <ul class="bullet-list" style="margin-top: 1px;">
+        <li>Architected and shipped 6+ production applications spanning AppSec tooling, SOC platforms, digital forensics, and web architecture.</li>
+        <li>Promoted SSDLC practices, SOLID design principles, and automated CI/CD security testing across personal and open-source projects.</li>
+      </ul>
+    </div>
+
+    <div class="experience-item">
+      <div class="flex-row">
+        <div>
+          <span class="role-title">Academic Support</span> <span class="organization">| Computer Lab Assistant & Cybersecurity Peer Tutor</span>
+        </div>
+      </div>
+      <ul class="bullet-list" style="margin-top: 1px;">
+        <li>Conducted peer workshops on Secure Software Development Lifecycle (SSDLC), network auditing (Wireshark), and socket engineering.</li>
+      </ul>
+    </div>
+
+    <div class="experience-item">
+      <div class="flex-row">
+        <div>
+          <span class="role-title">Volunteer</span> <span class="organization">| Cyber Hygiene & Community Awareness Initiatives</span>
+        </div>
+      </div>
+      <ul class="bullet-list" style="margin-top: 1px;">
+        <li>Led community digital literacy sessions promoting cyber hygiene, secure password management, and online data privacy awareness.</li>
+      </ul>
+    </div>
+
+    <div class="tagline-banner">
+      Software Engineer &nbsp;|&nbsp; Application Security Specialist &nbsp;|&nbsp; Building Resilient & Scalable Systems
+    </div>
+  </section>
+
+  <!-- HONORS & AWARDS -->
+  <section>
+    <div class="section-title">Honors & Awards</div>
+    <div class="award-item">
+      • <span class="award-title">Academic Honor:</span> 9.52 CGPA / 10.0 at SRM Institute of Science and Technology (Top Tier Academic Performance)
+    </div>
+    <div class="award-item">
+      • <span class="award-title">Capture The Flag (CTF) Cyber Security:</span> 3rd Place Winner at SRM Institute of Science & Technology
+    </div>
+    <div class="award-item">
+      • <span class="award-title">Hackathon Achievements:</span> Selected Participant in Smart India Hackathon (SIH) 2025 & VITAP Hackathon 2026
+    </div>
+    <div class="award-item">
+      • <span class="award-title">Systems & AppSec Engineering:</span> Architected and shipped 6+ end-to-end applications across Security, Full-Stack Web, and Systems
+    </div>
+  </section>
+
+  <!-- BOTTOM SUMMARY -->
+  <div class="bottom-summary">
+    Cybersecurity Specialist and Computer Science undergraduate at SRMIST with hands-on experience building production security engines, threat intelligence platforms, and low-level forensic utilities. Passionate about scalable architecture, high-concurrency systems, and zero-trust engineering.
+  </div>
+
+</body>
+</html>
